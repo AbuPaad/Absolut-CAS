@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Cfx-port.kicad_pro",
+    "filename": "main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -605,7 +605,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "schematic.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "../Docs/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

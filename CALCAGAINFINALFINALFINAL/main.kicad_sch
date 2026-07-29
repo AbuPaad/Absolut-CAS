@@ -125,7 +125,7 @@
 			)
 		)
 		(instances
-			(project "Cfx-port"
+			(project "main"
 				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf"
 					(page "2")
 				)
@@ -178,7 +178,7 @@
 			)
 		)
 		(instances
-			(project "Cfx-port"
+			(project "main"
 				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf"
 					(page "3")
 				)
@@ -222,7 +222,7 @@
 			)
 		)
 		(instances
-			(project "Cfx-port"
+			(project "main"
 				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf"
 					(page "4")
 				)
