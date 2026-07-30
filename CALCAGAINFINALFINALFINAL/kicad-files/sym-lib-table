@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OV2640")(type "KiCad")(uri "/home/fih/Downloads/OV2640/OV2640.kicad_sym")(options "")(descr ""))
+  (lib (name "FH12-24S-0.5SH_55_")(type "KiCad")(uri "/home/fih/Downloads/FH12-24S-0.5SH_55_/FH12-24S-0.5SH_55_.kicad_sym")(options "")(descr ""))
+)

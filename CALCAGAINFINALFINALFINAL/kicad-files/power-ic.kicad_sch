@@ -2137,10 +2137,6 @@
 		(at 77.216 90.17)
 		(uuid "204db110-ffed-443a-b7b4-33bcc794002d")
 	)
-	(no_connect
-		(at 54.356 100.33)
-		(uuid "5b4312a1-0ce9-4ae9-8061-6ff48f426e1e")
-	)
 	(wire
 		(pts
 			(xy 193.802 66.802) (xy 193.802 72.39)
@@ -2736,6 +2732,28 @@
 		(uuid "9ec2ea37-1659-40b9-b9ee-b708af754eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.516 99.0577 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 54.356 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c26405c7-d98e-4cfa-86a2-b627725213e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.356 107.1857 90)
 			(effects
 				(font
 					(size 1.27 1.27)
