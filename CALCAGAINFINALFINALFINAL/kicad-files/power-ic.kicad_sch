@@ -2441,16 +2441,6 @@
 		)
 		(uuid "20b55aff-5be1-48c5-80de-33b892efa8e7")
 	)
-	(label "VCC"
-		(at 77.216 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22ca3f65-729a-493d-b50c-c4afa86a0d10")
-	)
 	(label "VBAT_SW"
 		(at 171.196 74.93 180)
 		(effects
@@ -2707,6 +2697,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 77.216 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fee4946-2892-4f2a-86cf-27ff67db7516")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8298 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
