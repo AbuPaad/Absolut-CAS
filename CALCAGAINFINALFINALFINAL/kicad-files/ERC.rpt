@@ -1,0 +1,31 @@
+ERC report (2026-07-31T21:18:31, Encoding UTF8)
+Report includes: Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'Micro_SD_Card' doesn't match copy in library 'Connector'
+    ; warning
+    @(1850 mils, 1690 mils): Symbol J3 [Micro_SD_Card]
+[lib_symbol_mismatch]: Symbol 'USB_C_Receptacle_USB2.0_16P' doesn't match copy in library 'Connector'
+    ; warning
+    @(2440 mils, 3050 mils): Symbol J2 [USB_C_Receptacle_USB2.0_16P]
+
+***** Sheet /power-ic/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; warning
+    @(5800 mils, 2150 mils): Symbol H6 Pin 1 [1, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; warning
+    @(6740 mils, 2950 mils): Symbol U6 Pin 3 [EN, Input, Line]
+
+***** Sheet /Keypad Matrix/
+
+***** Sheet /esp32-s3 pinout/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; warning
+    @(2750 mils, 1690 mils): Symbol J3 Pin 4 [VDD, Power input, Line]
+
+ ** ERC messages: 5  Errors 0  Warnings 5
+
+ ** Ignored checks:
+    - Symbol pin or wire end off connection grid
+    - Footprint link issue
