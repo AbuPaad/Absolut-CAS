@@ -5484,7 +5484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 98.044 0)
 			(hide yes)
 			(show_name no)
@@ -5576,7 +5576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 91.694 0)
 			(hide yes)
 			(show_name no)
@@ -5886,7 +5886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 212.09 66.294 0)
 			(hide yes)
 			(show_name no)
@@ -6087,7 +6087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -6179,7 +6179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 91.694 0)
 			(hide yes)
 			(show_name no)
@@ -6271,7 +6271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 91.694 0)
 			(hide yes)
 			(show_name no)
@@ -6581,7 +6581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 53.594 0)
 			(hide yes)
 			(show_name no)
@@ -6673,7 +6673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 66.294 0)
 			(hide yes)
 			(show_name no)
@@ -6874,7 +6874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 98.044 0)
 			(hide yes)
 			(show_name no)
@@ -6966,7 +6966,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7167,7 +7167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 212.09 53.594 0)
 			(hide yes)
 			(show_name no)
@@ -7259,7 +7259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 53.594 0)
 			(hide yes)
 			(show_name no)
@@ -8007,7 +8007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 212.09 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8099,7 +8099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -8300,7 +8300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 72.644 0)
 			(hide yes)
 			(show_name no)
@@ -8501,7 +8501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 98.044 0)
 			(hide yes)
 			(show_name no)
@@ -8920,7 +8920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 91.694 0)
 			(hide yes)
 			(show_name no)
@@ -9012,7 +9012,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -9104,7 +9104,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -9196,7 +9196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 98.044 0)
 			(hide yes)
 			(show_name no)
@@ -9288,7 +9288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 66.294 0)
 			(hide yes)
 			(show_name no)
@@ -9489,7 +9489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 72.644 0)
 			(hide yes)
 			(show_name no)
@@ -9948,7 +9948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 85.344 0)
 			(hide yes)
 			(show_name no)
@@ -10040,7 +10040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 53.594 0)
 			(hide yes)
 			(show_name no)
@@ -10132,7 +10132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 212.09 59.944 0)
 			(hide yes)
 			(show_name no)
@@ -10224,7 +10224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 59.944 0)
 			(hide yes)
 			(show_name no)
@@ -10643,7 +10643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 72.644 0)
 			(hide yes)
 			(show_name no)
@@ -10844,7 +10844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 53.594 0)
 			(hide yes)
 			(show_name no)
@@ -10936,7 +10936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 66.294 0)
 			(hide yes)
 			(show_name no)
@@ -11137,7 +11137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11556,7 +11556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 212.09 72.644 0)
 			(hide yes)
 			(show_name no)
@@ -11648,7 +11648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 59.944 0)
 			(hide yes)
 			(show_name no)
@@ -11740,7 +11740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 78.994 0)
 			(hide yes)
 			(show_name no)
@@ -11832,7 +11832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 66.294 0)
 			(hide yes)
 			(show_name no)
@@ -12033,7 +12033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 66.294 0)
 			(hide yes)
 			(show_name no)
@@ -12125,7 +12125,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 85.344 0)
 			(hide yes)
 			(show_name no)
@@ -12435,7 +12435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 53.594 0)
 			(hide yes)
 			(show_name no)
@@ -12527,7 +12527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 59.944 0)
 			(hide yes)
 			(show_name no)
@@ -12619,7 +12619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 85.344 0)
 			(hide yes)
 			(show_name no)
@@ -12711,7 +12711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 91.694 0)
 			(hide yes)
 			(show_name no)
@@ -13130,7 +13130,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 72.644 0)
 			(hide yes)
 			(show_name no)
@@ -13876,7 +13876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 85.344 0)
 			(hide yes)
 			(show_name no)
@@ -14186,7 +14186,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 186.69 59.944 0)
 			(hide yes)
 			(show_name no)
@@ -14278,7 +14278,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 98.044 0)
 			(hide yes)
 			(show_name no)
@@ -14370,7 +14370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 85.344 0)
 			(hide yes)
 			(show_name no)
@@ -14462,7 +14462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 135.89 72.644 0)
 			(hide yes)
 			(show_name no)
@@ -14554,7 +14554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 59.944 0)
 			(hide yes)
 			(show_name no)
@@ -14646,7 +14646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 161.29 45.466 0)
 			(hide yes)
 			(show_name no)
@@ -14738,7 +14738,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15375,7 +15375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ButtonPads:conductive pad"
 			(at 85.09 45.72 0)
 			(hide yes)
 			(show_name no)
