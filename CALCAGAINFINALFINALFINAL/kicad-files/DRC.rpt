@@ -1,0 +1,259 @@
+** Drc report for Cfx-port.kicad_pcb **
+** Created on 2026-08-02T15:18:04 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 59 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(123.6878 mm, 88.5000 mm): Pad 2 [/Keypad Matrix/C6] of D103 on F.Cu
+    @(123.1878 mm, 88.5000 mm): Track [/Keypad Matrix/C6] on F.Cu, length 0.3122 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(123.9100 mm, 51.9800 mm): Track [/Keypad Matrix/C6] on F.Cu, length 3.7322 mm
+    @(123.4100 mm, 55.0000 mm): Track [/Keypad Matrix/C6] on F.Cu, length 3.0200 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(125.2194 mm, 65.2306 mm): Track [/Keypad Matrix/C6] on F.Cu, length 0.8052 mm
+    @(124.1500 mm, 65.8000 mm): Track [/Keypad Matrix/C6] on F.Cu, length 0.7500 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(125.9500 mm, 92.6000 mm): Track [/Keypad Matrix/C6] on F.Cu, length 1.3378 mm
+    @(127.8000 mm, 92.6000 mm): Track [/Keypad Matrix/C6] on F.Cu, length 1.3500 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(126.8500 mm, 73.8000 mm): Track [/Keypad Matrix/C6] on F.Cu, length 1.4122 mm
+    @(126.3500 mm, 73.8000 mm): Track [/Keypad Matrix/C6] on F.Cu, length 1.6223 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(82.2778 mm, 96.4778 mm): Track [/Keypad Matrix/C2] on F.Cu, length 3.3072 mm
+    @(82.7778 mm, 93.1706 mm): Track [/Keypad Matrix/C2] on F.Cu, length 2.4382 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(82.4000 mm, 65.3760 mm): Track [/Keypad Matrix/C2] on F.Cu, length 2.4382 mm
+    @(81.4000 mm, 65.8760 mm): Track [/Keypad Matrix/C2] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(82.5000 mm, 89.8611 mm): Track [/Keypad Matrix/C2] on F.Cu, length 2.7333 mm
+    @(82.0000 mm, 92.5000 mm): Track [/Keypad Matrix/C2] on F.Cu, length 2.6389 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(83.1706 mm, 53.2899 mm): Track [/Keypad Matrix/C2] on F.Cu, length 2.4382 mm
+    @(82.6706 mm, 53.8731 mm): Track [/Keypad Matrix/C2] on F.Cu, length 0.5832 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(86.0072 mm, 127.4807 mm): Track [/Keypad Matrix/C2] on F.Cu, length 1.7356 mm
+    @(85.5072 mm, 127.4807 mm): Track [/Keypad Matrix/C2] on F.Cu, length 3.1951 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(86.0500 mm, 138.4000 mm): Track [/Keypad Matrix/C2] on F.Cu, length 1.2122 mm
+    @(85.5500 mm, 138.4000 mm): Pad 1 [/Keypad Matrix/C2] of D72 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(86.0000 mm, 117.0000 mm): Track [/Keypad Matrix/C2] on F.Cu, length 0.8485 mm
+    @(87.1000 mm, 116.4000 mm): Pad 2 [/Keypad Matrix/C2] of D70 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(86.7750 mm, 104.6000 mm): Track [/Keypad Matrix/C2] on F.Cu, length 0.8872 mm
+    @(86.2750 mm, 104.6000 mm): Track [/Keypad Matrix/C2] on F.Cu, length 4.1250 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(88.4928 mm, 116.8306 mm): Pad 2 [/Keypad Matrix/C2] of SW68 on F.Cu
+    @(87.1000 mm, 116.4000 mm): Pad 2 [/Keypad Matrix/C2] of D70 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(111.4000 mm, 63.2735 mm): Track [/Keypad Matrix/R1] on F.Cu, length 1.4040 mm
+    @(102.4072 mm, 57.7807 mm): Pad 1 [/Keypad Matrix/R1] of SW71 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(71.3100 mm, 75.0800 mm): Track [/Keypad Matrix/C1] on F.Cu, length 9.0000 mm
+    @(71.8100 mm, 66.0800 mm): Track [/Keypad Matrix/C1] on F.Cu, length 1.5612 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(71.7100 mm, 94.0800 mm): Pad 2 [/Keypad Matrix/C1] of D59 on F.Cu
+    @(71.2100 mm, 98.0569 mm): Track [/Keypad Matrix/C1] on F.Cu, length 3.9769 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(71.4250 mm, 85.1373 mm): Track [/Keypad Matrix/C1] on F.Cu, length 1.0787 mm
+    @(72.9317 mm, 84.1306 mm): Track [/Keypad Matrix/C1] on F.Cu, length 0.3450 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(72.5100 mm, 104.8060 mm): Track [/Keypad Matrix/C1] on F.Cu, length 5.4491 mm
+    @(73.0100 mm, 104.8060 mm): Pad 2 [/Keypad Matrix/C1] of D60 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(72.5100 mm, 127.4060 mm): Track [/Keypad Matrix/C1] on F.Cu, length 11.2000 mm
+    @(73.0100 mm, 127.4060 mm): Pad 2 [/Keypad Matrix/C1] of D62 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(72.5500 mm, 138.6000 mm): Pad 1 [/Keypad Matrix/C1] of D63 on F.Cu
+    @(73.0500 mm, 138.6000 mm): Track [/Keypad Matrix/C1] on F.Cu, length 0.8122 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(72.1878 mm, 76.3746 mm): Track [/Keypad Matrix/C1] on F.Cu, length 0.7071 mm
+    @(73.1878 mm, 75.8746 mm): Track [/Keypad Matrix/C1] on F.Cu, length 1.5612 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(73.6346 mm, 116.8306 mm): Track [/Keypad Matrix/C1] on F.Cu, length 0.8834 mm
+    @(72.5100 mm, 116.2060 mm): Track [/Keypad Matrix/C1] on F.Cu, length 11.4000 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(73.0806 mm, 53.9939 mm): Pad 2 [/Keypad Matrix/C1] of D55 on F.Cu
+    @(72.6878 mm, 54.1011 mm): Track [/Keypad Matrix/C1] on F.Cu, length 0.1516 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(73.0806 mm, 53.9939 mm): Pad 2 [/Keypad Matrix/C1] of D55 on F.Cu
+    @(75.6634 mm, 53.3445 mm): Pad 2 [/Keypad Matrix/C1] of SW49 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(74.2928 mm, 93.4306 mm): Pad 2 [/Keypad Matrix/C1] of SW57 on F.Cu
+    @(71.7100 mm, 94.0800 mm): Pad 2 [/Keypad Matrix/C1] of D59 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(75.0928 mm, 105.4306 mm): Pad 2 [/Keypad Matrix/C1] of SW58 on F.Cu
+    @(73.0100 mm, 104.8060 mm): Pad 2 [/Keypad Matrix/C1] of D60 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(91.8100 mm, 57.4060 mm): Track [/Keypad Matrix/C3] on F.Cu, length 0.8485 mm
+    @(91.3100 mm, 72.4228 mm): Track [/Keypad Matrix/C3] on F.Cu, length 15.0168 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(92.4100 mm, 56.8060 mm): Track [/Keypad Matrix/C3] on F.Cu, length 1.8883 mm
+    @(93.6928 mm, 57.6306 mm): Pad 2 [/Keypad Matrix/C3] of SW72 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(94.1124 mm, 93.2252 mm): Track [/Keypad Matrix/C3] on F.Cu, length 0.3177 mm
+    @(93.3878 mm, 93.0006 mm): Track [/Keypad Matrix/C3] on F.Cu, length 6.6229 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(94.3878 mm, 75.0006 mm): Pad 2 [/Keypad Matrix/C3] of D75 on F.Cu
+    @(93.8878 mm, 82.5000 mm): Track [/Keypad Matrix/C3] on F.Cu, length 7.4994 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(93.3878 mm, 99.6234 mm): Track [/Keypad Matrix/C3] on F.Cu, length 7.5330 mm
+    @(99.2144 mm, 104.9501 mm): Track [/Keypad Matrix/C3] on F.Cu, length 2.1356 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(99.3072 mm, 127.7807 mm): Track [/Keypad Matrix/C3] on F.Cu, length 2.1356 mm
+    @(98.8072 mm, 127.7807 mm): Track [/Keypad Matrix/C3] on F.Cu, length 9.6072 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(99.3895 mm, 115.7308 mm): Track [/Keypad Matrix/C3] on F.Cu, length 1.8605 mm
+    @(99.8895 mm, 115.7308 mm): Track [/Keypad Matrix/C3] on F.Cu, length 0.9035 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(99.4100 mm, 52.8060 mm): Track [/Keypad Matrix/C3] on F.Cu, length 1.6582 mm
+    @(94.5217 mm, 52.8060 mm): Track [/Keypad Matrix/C3] on F.Cu, length 4.3883 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(99.7466 mm, 137.9807 mm): Track [/Keypad Matrix/C3] on F.Cu, length 0.3535 mm
+    @(98.9967 mm, 137.7308 mm): Track [/Keypad Matrix/C3] on F.Cu, length 0.2781 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(86.3850 mm, 97.9753 mm): Pad 1 [/Keypad Matrix/R5] of SW66 on F.Cu
+    @(75.4072 mm, 98.1807 mm): Pad 1 [/Keypad Matrix/R5] of SW57 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(96.8850 mm, 97.9753 mm): Pad 1 [/Keypad Matrix/R5] of SW75 on F.Cu
+    @(86.3850 mm, 97.9753 mm): Pad 1 [/Keypad Matrix/R5] of SW66 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(107.8850 mm, 97.9753 mm): Pad 1 [/Keypad Matrix/R5] of SW84 on F.Cu
+    @(96.8850 mm, 97.9753 mm): Pad 1 [/Keypad Matrix/R5] of SW75 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(119.0072 mm, 97.7807 mm): Pad 1 [/Keypad Matrix/R5] of SW93 on F.Cu
+    @(107.8850 mm, 97.9753 mm): Pad 1 [/Keypad Matrix/R5] of SW84 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(130.2072 mm, 97.7807 mm): Pad 1 [/Keypad Matrix/R5] of SW102 on F.Cu
+    @(119.0072 mm, 97.7807 mm): Pad 1 [/Keypad Matrix/R5] of SW93 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(98.9878 mm, 68.4878 mm): Track [/Keypad Matrix/C4] on F.Cu, length 4.8592 mm
+    @(99.5844 mm, 63.7252 mm): Track [/Keypad Matrix/C4] on F.Cu, length 0.1367 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(103.9878 mm, 99.5878 mm): Track [/Keypad Matrix/C4] on F.Cu, length 6.4592 mm
+    @(104.4878 mm, 93.1286 mm): Track [/Keypad Matrix/C4] on F.Cu, length 2.1862 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(104.4878 mm, 81.0122 mm): Track [/Keypad Matrix/C4] on F.Cu, length 5.3837 mm
+    @(105.0844 mm, 75.7252 mm): Track [/Keypad Matrix/C4] on F.Cu, length 0.1367 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(104.5844 mm, 83.7252 mm): Track [/Keypad Matrix/C4] on F.Cu, length 0.1367 mm
+    @(103.9878 mm, 93.1286 mm): Track [/Keypad Matrix/C4] on F.Cu, length 9.5000 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(108.0676 mm, 56.3054 mm): Track [/Keypad Matrix/C4] on F.Cu, length 0.2954 mm
+    @(107.2722 mm, 56.3054 mm): Track [/Keypad Matrix/C4] on F.Cu, length 0.3663 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(112.1000 mm, 137.6000 mm): Track [/Keypad Matrix/C4] on F.Cu, length 0.8622 mm
+    @(111.6000 mm, 137.6000 mm): Track [/Keypad Matrix/C4] on F.Cu, length 1.1314 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(112.3500 mm, 115.3500 mm): Track [/Keypad Matrix/C4] on F.Cu, length 10.7500 mm
+    @(112.6000 mm, 115.6000 mm): Track [/Keypad Matrix/C4] on F.Cu, length 0.5000 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(112.8500 mm, 104.6000 mm): Track [/Keypad Matrix/C4] on F.Cu, length 1.3622 mm
+    @(112.3500 mm, 115.3500 mm): Track [/Keypad Matrix/C4] on F.Cu, length 10.7500 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(112.9000 mm, 127.2000 mm): Track [/Keypad Matrix/C4] on F.Cu, length 1.3622 mm
+    @(112.4000 mm, 127.2000 mm): Track [/Keypad Matrix/C4] on F.Cu, length 11.3000 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(115.0878 mm, 85.6506 mm): Track [/Keypad Matrix/C5] on F.Cu, length 1.7574 mm
+    @(114.5878 mm, 90.1878 mm): Track [/Keypad Matrix/C5] on F.Cu, length 4.5372 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(114.5878 mm, 77.0271 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.7173 mm
+    @(115.5950 mm, 76.5199 mm): Track [/Keypad Matrix/C5] on F.Cu, length 1.7574 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(115.9131 mm, 65.0252 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.6016 mm
+    @(114.9878 mm, 65.4506 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.5484 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(116.1354 mm, 93.0306 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.6016 mm
+    @(115.2100 mm, 93.4560 mm): Track [/Keypad Matrix/C5] on F.Cu, length 1.000e-06 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(116.1100 mm, 53.0560 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.0900 mm
+    @(114.9878 mm, 53.6782 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.8800 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(124.2500 mm, 136.1000 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.7071 mm
+    @(124.8622 mm, 136.1000 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.1122 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(125.3500 mm, 115.1000 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.6122 mm
+    @(124.8500 mm, 125.1500 mm): Track [/Keypad Matrix/C5] on F.Cu, length 10.0500 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(125.3500 mm, 125.9000 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.2500 mm
+    @(125.8500 mm, 125.9000 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.1122 mm
+[unconnected_items]: Missing connection between items
+    Local override; warning
+    @(119.7000 mm, 105.1000 mm): Track [/Keypad Matrix/C5] on F.Cu, length 5.9000 mm
+    @(126.1000 mm, 105.1000 mm): Track [/Keypad Matrix/C5] on F.Cu, length 0.5000 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Solder mask aperture bridges items with different nets
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clipped by solder mask
+    - Items not allowed
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
