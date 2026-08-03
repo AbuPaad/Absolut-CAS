@@ -2227,10 +2227,22 @@
 		(uuid "f89b6f79-ace3-44c9-aa77-a5d50e2c8b26")
 	)
 	(junction
+		(at 77.216 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "056e93cd-f4ed-4819-afca-b38b871d847e")
+	)
+	(junction
 		(at 231.648 68.834)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d55d6a2-70f3-475b-b999-fa60e9d0b5ec")
+	)
+	(junction
+		(at 77.216 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e1f1f3a-ec2e-4455-bb76-c3085d2945f3")
 	)
 	(junction
 		(at 229.362 73.914)
@@ -2288,6 +2300,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.216 82.55) (xy 77.216 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bba33f4-366a-4c17-91ce-ed0eb6f82571")
+	)
+	(wire
+		(pts
 			(xy 209.042 55.118) (xy 215.646 55.118)
 		)
 		(stroke
@@ -2298,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.756 77.47) (xy 77.216 77.47)
+			(xy 98.044 77.47) (xy 91.948 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2308,13 +2330,23 @@
 	)
 	(wire
 		(pts
-			(xy 79.756 80.01) (xy 77.216 80.01)
+			(xy 98.044 82.55) (xy 91.948 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35e91611-435c-440e-85a8-212884f7a836")
+	)
+	(wire
+		(pts
+			(xy 77.216 82.55) (xy 84.328 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a8ddb8-f3d2-4f0f-b703-73cb808e5cd9")
 	)
 	(wire
 		(pts
@@ -2398,16 +2430,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.216 74.93) (xy 79.756 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c83f987-a473-4731-b4b0-ef9d18d1667c")
-	)
-	(wire
-		(pts
 			(xy 158.242 56.134) (xy 158.242 59.944)
 		)
 		(stroke
@@ -2425,6 +2447,16 @@
 			(type default)
 		)
 		(uuid "ab81e185-54f8-4934-ae9e-f073a3431074")
+	)
+	(wire
+		(pts
+			(xy 77.216 74.93) (xy 77.216 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc16e70b-ca77-45d6-a075-8e0c03b6ff71")
 	)
 	(wire
 		(pts
@@ -2448,13 +2480,13 @@
 	)
 	(wire
 		(pts
-			(xy 79.756 82.55) (xy 77.216 82.55)
+			(xy 84.328 77.47) (xy 77.216 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1e2d08f-9959-4003-b4ee-acb2bb14848b")
+		(uuid "d87ba914-2f64-4c42-a58f-3018281f1562")
 	)
 	(wire
 		(pts
@@ -2588,7 +2620,7 @@
 	)
 	(global_label "D+"
 		(shape output)
-		(at 79.756 80.01 0)
+		(at 98.044 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2597,7 +2629,7 @@
 		)
 		(uuid "359107c1-ed5e-4c38-b501-e8144dd917a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.756 80.01 0)
+			(at 98.044 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2632,28 +2664,6 @@
 			)
 		)
 	)
-	(global_label "D+"
-		(shape output)
-		(at 79.756 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e02ac48-9786-45a5-b0d5-fdd0c29fec9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.756 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 86.106 67.31 0)
@@ -2675,28 +2685,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "D-"
-		(shape output)
-		(at 79.756 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "414b70d6-8214-41c1-ba81-3c36ae384b35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.756 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 	)
@@ -2798,7 +2786,7 @@
 	)
 	(global_label "D-"
 		(shape output)
-		(at 79.756 77.47 0)
+		(at 98.044 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2807,7 +2795,7 @@
 		)
 		(uuid "7c11b2e4-096d-4be1-974a-52effd533818")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.756 77.47 0)
+			(at 98.044 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3577,6 +3565,85 @@
 					(variant
 						(name "goody2shoes-nocamera")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.138 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6792d337-1fb3-471f-8467-c8f508cc9e49")
+		(property "Reference" "R4"
+			(at 88.138 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7R"
+			(at 88.138 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.138 84.328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.138 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.138 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a65ccee-11cf-4ff7-ac63-5b7e492d6fbf")
+		)
+		(pin "2"
+			(uuid "0f413da7-4cb9-4c82-a7de-e76b2e134aa6")
+		)
+		(instances
+			(project "Cfx-port"
+				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
+					(reference "R4")
+					(unit 1)
 				)
 			)
 		)
@@ -4740,6 +4807,85 @@
 			(project "Cfx-port"
 				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.138 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f31a9d9c-c326-43e1-baad-de272dd50b7a")
+		(property "Reference" "R5"
+			(at 88.138 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7R"
+			(at 88.138 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.138 79.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.138 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.138 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67b5f64b-1381-41e9-a2ab-58e0f9375ecd")
+		)
+		(pin "2"
+			(uuid "ff2719ee-c536-48bf-91c2-ca28ad9f60e2")
+		)
+		(instances
+			(project "Cfx-port"
+				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
