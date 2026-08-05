@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.262,
-          "width": 0.262
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|149615010|78829750|79c7920e-746c-4dff-83f4-23d981164fdf|a86e9153-0703-426f-b919-007abaf532af",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -103,7 +98,7 @@
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -530,6 +525,15 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -537,7 +541,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "power",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Keypad Matrix/R4"
+      },
+      {
+        "netclass": "power",
+        "pattern": "VCC"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -711,7 +728,7 @@
         "uuid": "2a954a11-6412-4ea5-a14b-9a2b1d8affbf"
       }
     ],
-    "used_designators": "C3,Y1,R4-5,U1",
+    "used_designators": "C3,Y1,R4-5,U1,U8",
     "variants": [
       {
         "description": "for nerds who think cheating on exams with ai is bad I'm making a design variant with no camera",
