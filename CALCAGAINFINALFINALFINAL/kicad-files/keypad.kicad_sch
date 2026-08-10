@@ -3216,6 +3216,16 @@
 		(uuid "06ec6521-dd38-4103-8d5c-91a032129438")
 	)
 	(label "C4"
+		(at 156.21 45.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07c1605c-5e6b-42a4-a62b-af8a951502ce")
+	)
+	(label "C4"
 		(at 156.21 53.594 0)
 		(effects
 			(font
@@ -5454,7 +5464,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5530,7 +5540,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -5546,7 +5555,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5622,7 +5631,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -5856,7 +5864,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5932,7 +5940,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -6057,7 +6064,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6133,7 +6140,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -6149,7 +6155,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6225,7 +6231,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -6241,7 +6246,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6317,7 +6322,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -6551,7 +6555,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6627,7 +6631,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -6643,7 +6646,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6719,7 +6722,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -6844,7 +6846,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6920,7 +6922,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -6936,7 +6937,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7012,7 +7013,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -7137,7 +7137,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7213,7 +7213,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -7229,7 +7228,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7305,7 +7304,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -7977,7 +7975,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8053,7 +8051,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -8069,7 +8066,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8145,7 +8142,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -8270,7 +8266,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8346,7 +8342,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -8471,7 +8466,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8547,7 +8542,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -8890,7 +8884,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8966,7 +8960,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -8982,7 +8975,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9058,7 +9051,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -9074,7 +9066,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9150,7 +9142,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -9166,7 +9157,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9242,7 +9233,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -9258,7 +9248,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9334,7 +9324,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -9459,7 +9448,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9535,7 +9524,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -9828,6 +9816,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 137.16 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22396388"
+			(at 137.16 129.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7910cd7b-9f58-454d-9073-62727631fa62")
 		)
@@ -9918,7 +9928,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9994,7 +10004,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -10010,7 +10019,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10086,7 +10095,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -10102,7 +10110,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10178,7 +10186,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -10194,7 +10201,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10270,7 +10277,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -10613,7 +10619,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10689,7 +10695,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -10814,7 +10819,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10890,7 +10895,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -10906,7 +10910,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10982,7 +10986,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -11107,7 +11110,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11183,7 +11186,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -11526,7 +11528,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11602,7 +11604,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -11618,7 +11619,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11694,7 +11695,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -11710,7 +11710,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11786,7 +11786,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -11802,7 +11801,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11878,7 +11877,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -12003,7 +12001,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12079,7 +12077,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -12095,7 +12092,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12171,7 +12168,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -12405,7 +12401,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12481,7 +12477,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -12497,7 +12492,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12573,7 +12568,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -12589,7 +12583,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12665,7 +12659,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -12681,7 +12674,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12757,7 +12750,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -13100,7 +13092,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13176,7 +13168,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -13846,7 +13837,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13922,7 +13913,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -14156,7 +14146,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14232,7 +14222,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -14248,7 +14237,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14324,7 +14313,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -14340,7 +14328,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14416,7 +14404,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -14432,7 +14419,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14508,7 +14495,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -14524,7 +14510,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14600,7 +14586,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -14616,7 +14601,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14692,7 +14677,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -14708,7 +14692,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14784,7 +14768,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
@@ -15345,7 +15328,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15421,7 +15404,6 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
-						(in_bom no)
 						(field
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")

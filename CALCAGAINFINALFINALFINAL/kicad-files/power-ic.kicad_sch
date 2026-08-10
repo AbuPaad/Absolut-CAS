@@ -2538,6 +2538,26 @@
 		)
 		(uuid "f08d4839-1806-4826-81d5-47203ce7a961")
 	)
+	(label "usb_P"
+		(at 77.216 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "097fc7b3-be40-4164-a092-a6bbb02a0883")
+	)
+	(label "usb_P"
+		(at 77.216 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aa86799-a8f3-4876-b7ad-6d448814f600")
+	)
 	(label "BAT+"
 		(at 168.402 67.564 0)
 		(effects
@@ -2548,7 +2568,7 @@
 		)
 		(uuid "110c183f-1f4b-4465-b604-3d0a1d4d9d4d")
 	)
-	(label "VBAT_SW"
+	(label "BAT+"
 		(at 209.042 66.294 180)
 		(effects
 			(font
@@ -2568,7 +2588,7 @@
 		)
 		(uuid "20b55aff-5be1-48c5-80de-33b892efa8e7")
 	)
-	(label "VBAT_SW"
+	(label "BAT+"
 		(at 209.042 71.374 180)
 		(effects
 			(font
@@ -2578,7 +2598,7 @@
 		)
 		(uuid "2958c5c4-d4ec-438a-8e15-faf1dbbe8f0d")
 	)
-	(label "VBAT_SW"
+	(label "BAT+"
 		(at 158.242 59.944 180)
 		(effects
 			(font
@@ -2607,6 +2627,26 @@
 			(justify left bottom)
 		)
 		(uuid "76785fb7-d327-45eb-9d22-e62033138983")
+	)
+	(label "usb_N"
+		(at 77.216 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "961b0116-012c-46bf-aa38-d7e5fd546481")
+	)
+	(label "usb_N"
+		(at 77.216 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d94b9935-0237-4ff5-bf1e-48f729c35ae3")
 	)
 	(label "BAT+"
 		(at 177.292 96.774 180)
@@ -3150,7 +3190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.0592 70.358 0)
 			(hide yes)
 			(show_name no)
@@ -3172,7 +3212,29 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 244.094 74.168 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 244.094 74.168 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5672"
 			(at 244.094 74.168 0)
 			(hide yes)
 			(show_name no)
@@ -3279,6 +3341,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 136.652 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 136.652 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1e091e5-4f31-4a2c-a4ee-89b98e628a41")
 		)
@@ -3363,6 +3447,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 234.95 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23203"
+			(at 234.95 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d81ffd1a-bfd0-44ea-bed3-c32e046d274e")
 		)
@@ -3413,7 +3519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 68.5292 0)
 			(hide yes)
 			(show_name no)
@@ -3435,7 +3541,29 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 173.99 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 173.99 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7171"
 			(at 173.99 67.564 0)
 			(hide yes)
 			(show_name no)
@@ -3521,6 +3649,28 @@
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
 			(at 158.75 92.964 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 158.242 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C16581"
+			(at 158.242 72.644 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3811,6 +3961,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52989302"
+			(at 61.976 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B8"
 			(uuid "f8dfe340-3a3c-4397-a6b8-110a1d582c7e")
 		)
@@ -3939,6 +4100,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1035"
+			(at 219.456 55.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "263aabfa-834c-4a64-8ab0-4a96c0af1775")
 		)
@@ -4024,6 +4196,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 229.362 84.836 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17900"
+			(at 229.362 84.836 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c75df66-e271-4248-a94e-4bea66d1c373")
 		)
@@ -4064,7 +4258,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "5.1k"
 			(at 82.296 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,6 +4291,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.296 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.296 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23186"
 			(at 82.296 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4244,7 +4460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.2072 56.134 0)
 			(hide yes)
 			(show_name no)
@@ -4266,7 +4482,29 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 158.242 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 158.242 52.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7171"
 			(at 158.242 52.324 0)
 			(hide yes)
 			(show_name no)
@@ -4352,6 +4590,28 @@
 			)
 		)
 		(property "Description" "Boost Converter, 2.5A switch current limit, 2.2-5.5V Output Voltage, 0.5-5.5V Input Voltage, SOT-23-6"
+			(at 219.202 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 219.202 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6881375"
 			(at 219.202 71.374 0)
 			(hide yes)
 			(show_name no)
@@ -4459,6 +4719,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 144.272 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4410"
+			(at 144.272 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff3d97fb-fea7-4dc3-8ac4-1c836b84f1ce")
 		)
@@ -4499,7 +4781,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 82.296 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -4533,6 +4815,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.296 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.296 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23186"
 			(at 82.296 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4583,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1.2"
 			(at 174.752 75.184 90)
 			(hide yes)
 			(show_name no)
@@ -4617,6 +4921,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 174.752 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 174.752 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17379"
 			(at 174.752 75.184 0)
 			(hide yes)
 			(show_name no)
@@ -4712,6 +5038,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 144.272 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4410"
+			(at 144.272 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "385b0b08-7162-422b-9ebc-3e572655e361")
 		)
@@ -4787,6 +5135,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.326 42.164 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 195.326 42.164 0)
 			(hide yes)
 			(show_name no)

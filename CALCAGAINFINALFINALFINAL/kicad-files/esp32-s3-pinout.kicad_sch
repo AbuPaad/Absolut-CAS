@@ -1787,104 +1787,22 @@
 		(uuid "e933e33e-1dd2-48dc-8b35-d1dcc3e38dcc")
 	)
 	(no_connect
-		(at 160.528 103.632)
-		(uuid "005a17ce-b495-4027-b4aa-83a660c79077")
-	)
-	(no_connect
-		(at 160.528 80.772)
-		(uuid "00e674bd-be83-4a7f-a5e5-896c34c5f859")
-	)
-	(no_connect
-		(at 160.528 108.712)
-		(uuid "156fb637-02c4-4974-a0d1-0fc213c24893")
-	)
-	(no_connect
 		(at 69.85 32.766)
 		(uuid "19234a76-2214-45e6-b79e-91ac5f78a5a4")
-	)
-	(no_connect
-		(at 160.528 83.312)
-		(uuid "1bf0d2f5-d05a-4513-be27-1f64cb92c524")
-	)
-	(no_connect
-		(at 160.528 121.412)
-		(uuid "218613e8-0146-4555-9e22-4ee4b92ed01d")
-	)
-	(no_connect
-		(at 160.528 98.552)
-		(uuid "226c9bc5-9eab-456f-bcad-146de946b642")
-	)
-	(no_connect
-		(at 191.008 123.952)
-		(uuid "22f3e8d8-c86f-4d01-a45d-1cbe4d5c3586")
-	)
-	(no_connect
-		(at 191.008 111.252)
-		(uuid "39ff2bc6-272c-4a91-91a8-ce3d1f0b27b8")
-	)
-	(no_connect
-		(at 160.528 90.932)
-		(uuid "3c01f8d4-93ab-4526-8fe0-954963826634")
-	)
-	(no_connect
-		(at 191.008 96.012)
-		(uuid "3c117ede-711f-4291-a695-dfb2959f60c9")
-	)
-	(no_connect
-		(at 160.528 88.392)
-		(uuid "3edd8540-22d6-47e4-9c9c-405bcb367553")
-	)
-	(no_connect
-		(at 191.008 113.792)
-		(uuid "4beaea30-b9f6-4626-ab79-f6e5543a64d1")
-	)
-	(no_connect
-		(at 191.008 116.332)
-		(uuid "4e9b4999-a09b-4189-9d53-8e3ef54313b7")
-	)
-	(no_connect
-		(at 160.528 123.952)
-		(uuid "6e086e4f-aec4-47cb-ad66-1934d0f46d7f")
-	)
-	(no_connect
-		(at 160.528 78.232)
-		(uuid "95bd5a44-d426-45ca-8318-9990c72a78a6")
-	)
-	(no_connect
-		(at 160.528 116.332)
-		(uuid "9c2b8133-9efc-4bfe-9f44-910893a0d28b")
-	)
-	(no_connect
-		(at 160.528 101.092)
-		(uuid "9f88f906-b9e2-4bb0-aacc-b2059fbe5abb")
-	)
-	(no_connect
-		(at 160.528 85.852)
-		(uuid "a03bba0f-d25e-493d-86b8-0b5c0c494328")
-	)
-	(no_connect
-		(at 160.528 93.472)
-		(uuid "c19cb2ff-80d9-4f2b-a86c-c941bbd3f603")
-	)
-	(no_connect
-		(at 160.528 96.012)
-		(uuid "c86a04ca-3324-4186-8fae-524e98dbd120")
-	)
-	(no_connect
-		(at 191.008 118.872)
-		(uuid "cefe547a-99e0-4180-8693-47f313f4ba5a")
-	)
-	(no_connect
-		(at 160.528 118.872)
-		(uuid "f354a7ff-681d-481d-96a5-52d8c3329672")
 	)
 	(no_connect
 		(at 69.85 50.546)
 		(uuid "f7388c0e-2ea2-49ba-88b6-61d0463e2f07")
 	)
-	(no_connect
-		(at 160.528 106.172)
-		(uuid "fb957584-67d0-4dfa-81fa-0cd950f748c4")
+	(wire
+		(pts
+			(xy 197.104 118.872) (xy 191.008 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ddae02-56f5-45bb-a649-711c7f411f86")
 	)
 	(wire
 		(pts
@@ -1955,6 +1873,16 @@
 			(type default)
 		)
 		(uuid "adaa393b-ac11-4891-b451-6a7baabeee7f")
+	)
+	(wire
+		(pts
+			(xy 204.978 118.872) (xy 204.724 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b4fb28-d524-496c-9630-f474ac34256d")
 	)
 	(image
 		(at -47.498 106.426)
@@ -3099,7 +3027,17 @@
 		)
 		(uuid "07d3124c-950d-409d-83fd-89d7c4d1ee80")
 	)
-	(label "MOSI"
+	(label "OV_D5"
+		(at 160.528 118.872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08f45807-7dd3-4520-b730-3ae17752df98")
+	)
+	(label "MISO"
 		(at 191.008 85.852 0)
 		(effects
 			(font
@@ -3115,7 +3053,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "222b9425-f022-4c18-820c-d20ca7778b34")
 	)
@@ -3128,6 +3066,36 @@
 			(justify left bottom)
 		)
 		(uuid "22a96645-a00f-4f78-b2b5-67c4dce03cc2")
+	)
+	(label "OV_HREF"
+		(at 160.528 88.392 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "255d058c-4ab4-4108-801c-c0c9cc29d581")
+	)
+	(label "OV_D7"
+		(at 160.528 108.712 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "284e2e9a-a786-434e-a7f4-0bea0296e3bb")
+	)
+	(label "CMD"
+		(at 160.528 96.012 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28bfd8d9-ef47-4e00-8eac-e8474f6b3b08")
 	)
 	(label "~{INT1}"
 		(at 191.008 78.232 0)
@@ -3148,6 +3116,46 @@
 			(justify left bottom)
 		)
 		(uuid "4d25c4c3-8665-4beb-99a0-cb0f74c94bcd")
+	)
+	(label "OV_D4"
+		(at 191.008 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58d6390d-ad54-4816-a9cb-3a16421e99e8")
+	)
+	(label "OV_D6"
+		(at 160.528 116.332 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a4e4fc0-816e-405a-b9df-e6552a4d0044")
+	)
+	(label "OV_D0"
+		(at 191.008 116.332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "71d186a7-07a4-4c4c-b55d-1be910ff37b6")
+	)
+	(label "OV_VSYNC"
+		(at 160.528 90.932 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7abbf00f-79b4-4841-890a-5b49484eb67e")
 	)
 	(label "MISO"
 		(at 70.866 35.306 0)
@@ -3199,6 +3207,26 @@
 		)
 		(uuid "b2ff41d9-b2c9-4123-b153-6c3a8cdc4c89")
 	)
+	(label "OV_D2"
+		(at 160.528 98.552 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "b33390c6-65de-41ed-9ca7-74c10f253dd0")
+	)
+	(label "OV_PCLK"
+		(at 160.528 93.472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb2a982e-f966-41ba-8ea7-11d4f79d7735")
+	)
 	(label "CS1"
 		(at 191.008 80.772 0)
 		(effects
@@ -3215,9 +3243,19 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "ca934ba6-bee5-45b8-b6bb-ea724eb7e362")
+	)
+	(label "en"
+		(at 191.008 123.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccc7f794-43a6-4e54-a507-b853ec441c47")
 	)
 	(label "CMD"
 		(at 69.85 45.466 0)
@@ -3229,7 +3267,7 @@
 		)
 		(uuid "d30f3ac0-0998-41f8-8b22-5fef5c3c31f0")
 	)
-	(label "extra"
+	(label "OV_D3"
 		(at 191.008 98.552 0)
 		(effects
 			(font
@@ -3239,7 +3277,17 @@
 		)
 		(uuid "dd2497f7-0ad4-4aee-a96a-131e354ecd4d")
 	)
-	(label "CS"
+	(label "OV_D1"
+		(at 191.008 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e10d4742-c579-47f0-9ac8-b8acfdd3b3e2")
+	)
+	(label "CS1"
 		(at 69.85 48.006 0)
 		(effects
 			(font
@@ -3249,7 +3297,7 @@
 		)
 		(uuid "e1170985-bc0d-4f73-9663-e82aa345c0c1")
 	)
-	(label "MISO"
+	(label "~{INT}"
 		(at 191.008 83.312 0)
 		(effects
 			(font
@@ -3265,9 +3313,31 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "fb17278f-17e5-4260-bbf9-98985f9f06fd")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 204.978 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0599fd34-8653-4938-b6c1-ccd570e76133")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.978 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape input)
@@ -3361,7 +3431,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 81.534 48.006 0)
 		(fields_autoplaced yes)
@@ -3431,7 +3501,7 @@
 			)
 		)
 	)
-	(global_label "D-"
+	(global_label "usb_N"
 		(shape bidirectional)
 		(at 156.464 113.792 180)
 		(effects
@@ -3453,7 +3523,7 @@
 			)
 		)
 	)
-	(global_label "~{INT}"
+	(global_label "MOSI"
 		(shape bidirectional)
 		(at 191.008 90.932 0)
 		(effects
@@ -3475,7 +3545,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 81.534 45.466 0)
 		(fields_autoplaced yes)
@@ -3499,7 +3569,7 @@
 			)
 		)
 	)
-	(global_label "D+"
+	(global_label "usb_P"
 		(shape bidirectional)
 		(at 156.464 111.252 180)
 		(effects
@@ -3521,7 +3591,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 175.768 129.032 270)
 		(fields_autoplaced yes)
@@ -3569,7 +3639,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 81.534 35.306 0)
 		(fields_autoplaced yes)
@@ -3593,7 +3663,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 69.85 42.926 0)
 		(effects
@@ -3723,6 +3793,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 200.914 118.872 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26fccc06-043b-4245-85ee-f9fea4049472")
+		(property "Reference" "R6"
+			(at 200.914 113.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.914 115.824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.914 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.914 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.914 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bacfc239-0789-4878-b799-b810904055f6")
+		)
+		(pin "1"
+			(uuid "116abd32-2c4e-4c20-8801-7932adeba9d5")
+		)
+		(instances
+			(project "Cfx-port"
+				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/ecd1e937-d5ac-4e54-825a-463e4e72beb9"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 77.724 45.466 90)
 		(unit 1)
 		(body_style 1)
@@ -3788,6 +3938,28 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 77.724 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 77.724 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5af363f7-cc9b-4929-b354-efd14fd68165")
 		)
@@ -3829,7 +4001,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10uf"
 			(at 94.742 39.116 90)
 			(hide yes)
 			(show_name no)
@@ -3840,7 +4012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 98.3488 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -3862,7 +4034,29 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 99.314 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 99.314 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7171"
 			(at 99.314 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -4200,7 +4394,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1"
 			(at 85.852 39.116 90)
 			(hide yes)
 			(show_name no)
@@ -4211,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.4588 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -4233,7 +4427,29 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 90.424 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 90.424 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 90.424 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -4453,7 +4669,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 77.724 31.242 90)
 			(hide yes)
 			(show_name no)
@@ -4487,6 +4703,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.724 35.306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 77.724 35.306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 77.724 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -4570,6 +4808,17 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
+			(at 46.99 42.926 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C91145"
 			(at 46.99 42.926 0)
 			(hide yes)
 			(show_name no)
@@ -4680,6 +4929,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 77.724 48.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 77.724 48.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 77.724 48.006 0)
 			(hide yes)
 			(show_name no)
