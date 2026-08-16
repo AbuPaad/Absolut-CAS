@@ -76,13 +76,30 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|137060000|32100000|b37c76f3-47ca-494b-a54c-d9f9b66c6536|e9d555f4-6a87-467e-a504-615960b414c4",
+          ""
+        ],
+        [
+          "clearance|146725000|85525000|947d54b7-6747-4d96-9131-6866703f3cc7|9f4ac326-2c12-4075-b1ab-0a1b957c4df0",
+          ""
+        ],
+        [
+          "clearance|146925000|87225000|3e67a326-d11b-4884-b79b-3a1dbe20e537|301ff662-4ec5-4c34-b2c6-456855f61258",
+          ""
+        ],
+        [
+          "clearance|151590000|54600000|c5fc88a5-0efc-49e5-9ae7-6ebc2b2d2f4f|992bd4ef-76ff-4bb4-b9c0-b2c5db2d8287",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -118,8 +135,8 @@
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
-        "shorting_items": "ignore",
+        "pth_inside_courtyard": "error",
+        "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
@@ -728,7 +745,7 @@
         "uuid": "2a954a11-6412-4ea5-a14b-9a2b1d8affbf"
       }
     ],
-    "used_designators": "C3,Y1,R4-6,U1,U8",
+    "used_designators": "D1,C3,Y1,R4-6,U1,U8",
     "variants": [
       {
         "description": "for nerds who think cheating on exams with ai is bad I'm making a design variant with no camera",

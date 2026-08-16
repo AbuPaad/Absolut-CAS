@@ -3235,6 +3235,16 @@
 		)
 		(uuid "0a0d322c-40f8-45ac-9d2e-5d1b0c4ee8b6")
 	)
+	(label "GND"
+		(at 134.62 112.014 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b4b7c81-3819-48c4-8929-ed7994db433d")
+	)
 	(label "R8"
 		(at 90.17 91.694 0)
 		(effects

@@ -3027,6 +3027,16 @@
 		)
 		(uuid "07d3124c-950d-409d-83fd-89d7c4d1ee80")
 	)
+	(label "boot"
+		(at 191.008 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "081ca3d2-7346-4b30-b62f-38362bfb2469")
+	)
 	(label "OV_D5"
 		(at 160.528 118.872 180)
 		(effects
@@ -3067,7 +3077,7 @@
 		)
 		(uuid "22a96645-a00f-4f78-b2b5-67c4dce03cc2")
 	)
-	(label "OV_HREF"
+	(label "BL"
 		(at 160.528 88.392 180)
 		(effects
 			(font
@@ -3097,7 +3107,7 @@
 		)
 		(uuid "28bfd8d9-ef47-4e00-8eac-e8474f6b3b08")
 	)
-	(label "~{INT1}"
+	(label "OV_HREF"
 		(at 191.008 78.232 0)
 		(effects
 			(font
@@ -3216,6 +3226,16 @@
 			(justify right top)
 		)
 		(uuid "b33390c6-65de-41ed-9ca7-74c10f253dd0")
+	)
+	(label "batprog"
+		(at 160.528 80.772 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb04a5c1-4d01-4f19-a2a6-1c30849d709f")
 	)
 	(label "OV_PCLK"
 		(at 160.528 93.472 180)
@@ -3479,7 +3499,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "en"
 		(shape input)
 		(at 98.806 42.926 0)
 		(effects
@@ -3905,7 +3925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.724 47.244 90)
 			(hide yes)
 			(show_name no)
@@ -3927,7 +3947,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 77.724 45.466 0)
 			(hide yes)
 			(show_name no)
@@ -4091,7 +4111,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4108,7 +4128,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-2"
 			(at 178.8861 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +4139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-2"
 			(at 175.768 103.632 0)
 			(hide yes)
 			(show_name no)
@@ -4130,7 +4150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+		(property "Datasheet" ""
 			(at 175.768 101.092 0)
 			(hide yes)
 			(show_name no)
@@ -4141,7 +4161,7 @@
 				)
 			)
 		)
-		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+		(property "Description" ""
 			(at 175.768 101.092 0)
 			(hide yes)
 			(show_name no)
@@ -4282,6 +4302,7 @@
 					(unit 1)
 					(variant
 						(name "goody2shoes-nocamera")
+						(in_bom yes)
 					)
 				)
 			)
@@ -4449,7 +4470,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C1848"
 			(at 90.424 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -4680,7 +4701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.724 37.084 90)
 			(hide yes)
 			(show_name no)
@@ -4702,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 77.724 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -4796,7 +4817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+		(property "Datasheet" ""
 			(at 46.99 42.926 0)
 			(hide yes)
 			(show_name no)
@@ -4807,7 +4828,7 @@
 				)
 			)
 		)
-		(property "Description" "Micro SD Card Socket"
+		(property "Description" ""
 			(at 46.99 42.926 0)
 			(hide yes)
 			(show_name no)
@@ -4906,7 +4927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.724 49.784 90)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 77.724 48.006 0)
 			(hide yes)
 			(show_name no)
