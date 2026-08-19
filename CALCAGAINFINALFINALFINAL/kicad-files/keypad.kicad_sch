@@ -5,380 +5,6 @@
 	(uuid "fdfa7847-727b-4f15-a396-6e0fae50a764")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1N4001_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4001"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4001_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4001_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "1N4001_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4001"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4001_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4001_2_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4001"
 			(pin_numbers
 				(hide yes)
@@ -1271,7 +897,7 @@
 	)
 	(text "Dpad-right\n"
 		(exclude_from_sim no)
-		(at 170.434 54.356 0)
+		(at 170.18 50.292 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1281,7 +907,7 @@
 	)
 	(text "dpad-down\n"
 		(exclude_from_sim no)
-		(at 145.288 54.356 0)
+		(at 138.43 50.8 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1306,40 +932,10 @@
 		(uuid "06339fda-3742-4059-8412-b1ba09f1395a")
 	)
 	(junction
-		(at 148.59 53.594)
+		(at 80.01 59.944)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d295483-5d1e-46e9-b097-dd21e8055d54")
-	)
-	(junction
-		(at 148.59 85.344)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f53c051-cb86-4bf3-80e7-81d81dbab996")
-	)
-	(junction
-		(at 123.19 53.594)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11e693d4-45f6-4d69-a628-15dd914e9898")
-	)
-	(junction
-		(at 148.59 78.994)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12706b64-f932-496c-b73b-14cc3ad13f87")
-	)
-	(junction
-		(at 173.99 59.944)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "156a9a8b-5e2c-4791-92ea-7400fda12c0b")
-	)
-	(junction
-		(at 173.99 66.294)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20d5252d-3120-4be0-84be-13412fb4a9a1")
+		(uuid "16c04f9b-c31c-46ce-9a80-863b570981b0")
 	)
 	(junction
 		(at 115.57 62.484)
@@ -1348,34 +944,22 @@
 		(uuid "21601dcc-43fa-4355-9aa8-73dbbb7384c7")
 	)
 	(junction
-		(at 173.99 53.594)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22174656-4d96-42a6-a45a-2c5d472a3db7")
-	)
-	(junction
 		(at 166.37 56.134)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2568fe38-1973-4457-876f-5d9a298172ea")
 	)
 	(junction
-		(at 72.39 66.294)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "286560be-fe84-47e1-b4ab-7b29cebc6f5f")
-	)
-	(junction
-		(at 72.39 53.594)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2955884a-46c5-44d9-a29b-e4ae54449bf3")
-	)
-	(junction
 		(at 140.97 94.234)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b09e06b-5669-476a-bee6-445d1c2350fe")
+	)
+	(junction
+		(at 105.41 66.294)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33ef030b-4ca8-4e05-8c1e-719fc375375d")
 	)
 	(junction
 		(at 140.97 68.58)
@@ -1396,34 +980,22 @@
 		(uuid "3ae6fd6f-14f3-4c9e-9259-1db9f4c56b03")
 	)
 	(junction
-		(at 173.99 78.994)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "400b2be0-51ae-4356-9e8b-0460dd1e6652")
-	)
-	(junction
-		(at 173.99 85.344)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "414bd875-e242-4e7d-93b0-f7bfe270f208")
-	)
-	(junction
 		(at 166.37 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41686625-4c87-45ff-9b9b-871419f6e1e5")
 	)
 	(junction
-		(at 97.79 72.644)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44bffa8a-8477-4595-ba8e-0563d5982ac9")
-	)
-	(junction
 		(at 140.97 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f5a3cd-3df3-47b1-a766-6e95c119bb7f")
+	)
+	(junction
+		(at 80.01 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "499558d2-de91-4024-a215-8ecc2b5610f5")
 	)
 	(junction
 		(at 191.77 62.484)
@@ -1444,16 +1016,10 @@
 		(uuid "589589f7-b365-41ff-a1e2-ce98819ef267")
 	)
 	(junction
-		(at 97.79 53.594)
+		(at 105.41 78.994)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d2f7552-88c2-4e95-8153-a579651ec008")
-	)
-	(junction
-		(at 173.99 91.694)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6111c2c5-448d-413b-b515-3914eee10049")
+		(uuid "60099504-8a8b-4d8b-9d30-2e9ffaa538c6")
 	)
 	(junction
 		(at 140.97 56.134)
@@ -1462,16 +1028,22 @@
 		(uuid "667fb214-7f15-4906-bbd6-c7332c792c87")
 	)
 	(junction
-		(at 123.19 59.944)
+		(at 80.01 66.294)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6795fe36-6f26-479f-885a-94cf1b14aa92")
+		(uuid "68eb94d7-c7e5-4881-886a-ec798515463d")
 	)
 	(junction
-		(at 123.19 78.994)
+		(at 105.41 53.594)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68777bd6-27da-46d1-8f8e-9cde3aa6bf4a")
+		(uuid "6b0062e1-e92a-407e-a067-8732349225d0")
+	)
+	(junction
+		(at 207.01 59.944)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6daa672c-e968-4925-9aec-eca2a44648aa")
 	)
 	(junction
 		(at 140.97 75.184)
@@ -1498,34 +1070,10 @@
 		(uuid "787fb6d1-213e-4225-8956-25ea976b2618")
 	)
 	(junction
-		(at 199.39 66.294)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a739261-51d3-458b-8b4d-274affbe1e83")
-	)
-	(junction
-		(at 97.79 91.694)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f8297a0-23bf-4493-adbf-f30ab4b37e88")
-	)
-	(junction
 		(at 166.37 100.584)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85cb468d-a826-4269-95b5-3a9de1ce0a4f")
-	)
-	(junction
-		(at 72.39 85.344)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88887b29-ef33-47f1-847b-433506779eba")
-	)
-	(junction
-		(at 97.79 66.294)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88b99e79-9b10-4421-802c-0b15091d0a34")
 	)
 	(junction
 		(at 154.94 147.574)
@@ -1534,22 +1082,40 @@
 		(uuid "88eed331-aeb9-492a-9388-2fcf142c84d1")
 	)
 	(junction
-		(at 148.59 91.694)
+		(at 80.01 53.594)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "921fad1c-7bfb-4807-aa33-4180013778f2")
+		(uuid "8b99ac4b-b32b-4596-9120-86523ed4480b")
 	)
 	(junction
-		(at 72.39 91.694)
+		(at 207.01 53.594)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92d03852-6deb-44d9-ba04-27b71d893f3b")
+		(uuid "8d5a395e-6dd3-46aa-88ab-b524c63b00e3")
+	)
+	(junction
+		(at 80.01 91.694)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9039c5a1-31c7-4ccf-b484-f0fa793e4964")
 	)
 	(junction
 		(at 115.57 81.534)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95751dd8-a9e8-41d4-ad06-f07f6a64231d")
+	)
+	(junction
+		(at 207.01 66.294)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9662635d-57d8-4e5a-8bff-68f201c179ee")
+	)
+	(junction
+		(at 105.41 85.344)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96ef87c6-128b-4adc-accb-4f8f1650bf80")
 	)
 	(junction
 		(at 166.37 81.534)
@@ -1564,40 +1130,22 @@
 		(uuid "9d8319fd-f284-4756-b3f8-55fb69ed2b91")
 	)
 	(junction
-		(at 199.39 59.944)
+		(at 80.01 85.344)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a13c1093-c248-43d6-ad8b-76ef8a94c765")
+		(uuid "b35e3629-8702-4c5f-b622-ac2c9cb5633a")
 	)
 	(junction
-		(at 123.19 85.344)
+		(at 105.41 72.644)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a40a19ce-a7c4-464e-b13e-5f555362186e")
+		(uuid "b58b058d-68cf-4c71-8ecf-48b3f6e6b337")
 	)
 	(junction
-		(at 97.79 85.344)
+		(at 80.01 72.644)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5d0fb89-5308-4386-964c-099d95cec97d")
-	)
-	(junction
-		(at 173.99 72.644)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac95cec8-e6e2-46f0-9ef4-1e745bce5ebc")
-	)
-	(junction
-		(at 97.79 59.944)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b14a2f6d-3376-4a67-b276-a46b872080f0")
-	)
-	(junction
-		(at 72.39 72.644)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c671ad3a-0f34-435c-a7f4-7240ed7e6e28")
+		(uuid "c0bd5e5a-986f-4e75-b5a2-379eac3f120e")
 	)
 	(junction
 		(at 166.37 62.484)
@@ -1606,10 +1154,10 @@
 		(uuid "c8f54d3b-e1fd-449f-9107-654427ef28b6")
 	)
 	(junction
-		(at 97.79 78.994)
+		(at 105.41 91.694)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca599318-96b4-404f-a448-7c0aeae3912c")
+		(uuid "c99653d4-0333-4d8c-a82c-8b39c3ea5f5b")
 	)
 	(junction
 		(at 115.57 48.26)
@@ -1618,34 +1166,16 @@
 		(uuid "cc0fcf89-59a8-4c40-837d-36b688f46e8a")
 	)
 	(junction
-		(at 148.59 59.944)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cec6750c-96c4-4826-ad91-1d22f3c2d91f")
-	)
-	(junction
 		(at 191.77 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d01506c6-0843-492f-bc34-706c840f84fe")
 	)
 	(junction
-		(at 148.59 66.294)
+		(at 80.01 78.994)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d210d6cb-d22e-4c2f-bd2e-197a8065b17a")
-	)
-	(junction
-		(at 123.19 91.694)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3d38a04-af85-40f6-a281-331c317d0086")
-	)
-	(junction
-		(at 123.19 66.294)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4ea5220-79fc-46bb-8940-48e1f7f97ecb")
+		(uuid "d2821479-006e-4320-b10f-1acfa96ac01d")
 	)
 	(junction
 		(at 157.48 147.574)
@@ -1666,28 +1196,16 @@
 		(uuid "dc7c212b-2a98-4c2c-ac14-281aebca0055")
 	)
 	(junction
-		(at 148.59 72.644)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd1908cf-b7ee-417c-815a-115c10750fab")
-	)
-	(junction
-		(at 123.19 72.644)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0924061-e5f4-47d7-9e63-e78a7f573575")
-	)
-	(junction
-		(at 72.39 78.994)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5cffbf8-3f23-4ae4-89a8-033a02b876dc")
-	)
-	(junction
 		(at 191.77 56.134)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7c6a5b7-5edd-4f42-846c-687a6cba0d12")
+	)
+	(junction
+		(at 105.41 59.944)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec25e581-2fd2-4c1d-bacb-072dd4bdd174")
 	)
 	(junction
 		(at 140.97 100.584)
@@ -1702,22 +1220,10 @@
 		(uuid "f522dec8-a430-4824-8709-7fea467495b0")
 	)
 	(junction
-		(at 72.39 59.944)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f70f1684-555a-4ad6-bd44-28422254593d")
-	)
-	(junction
 		(at 166.37 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f76d70b3-789f-4f72-848e-a1892ebec76e")
-	)
-	(junction
-		(at 199.39 53.594)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc581e5b-5f4a-49e1-8d58-e0d87f0d3496")
 	)
 	(junction
 		(at 166.37 87.884)
@@ -1787,6 +1293,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 98.044) (xy 80.01 91.694)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dbb614-bc13-4912-9095-68424d1c03fd")
+	)
+	(wire
+		(pts
 			(xy 166.37 59.944) (xy 166.37 62.484)
 		)
 		(stroke
@@ -1797,13 +1313,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.294) (xy 123.19 72.644)
+			(xy 207.01 45.72) (xy 207.01 53.594)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bd33ec3-fa16-4174-a0c2-84eaa9d1159c")
+		(uuid "0db89c73-8986-49f7-b151-46d1a096c23c")
 	)
 	(wire
 		(pts
@@ -1847,13 +1363,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 53.594) (xy 173.99 59.944)
+			(xy 80.01 91.694) (xy 80.01 85.344)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1cf3964e-80ad-4d35-8a00-1a48daf47f56")
+		(uuid "1cd1e3f3-3722-461f-ae48-a0746327a588")
 	)
 	(wire
 		(pts
@@ -1867,16 +1383,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 59.944) (xy 97.79 66.294)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d0d87e-b28c-4e9e-8a8f-7e6933eb6004")
-	)
-	(wire
-		(pts
 			(xy 166.37 81.534) (xy 191.77 81.534)
 		)
 		(stroke
@@ -1884,16 +1390,6 @@
 			(type default)
 		)
 		(uuid "23e30290-83db-4d1f-abaf-910b154c05cf")
-	)
-	(wire
-		(pts
-			(xy 97.79 66.294) (xy 97.79 72.644)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "253fd558-fd0b-47d2-8d86-25c028c2048b")
 	)
 	(wire
 		(pts
@@ -1907,13 +1403,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 72.644) (xy 72.39 66.294)
+			(xy 80.01 78.994) (xy 80.01 72.644)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27a79705-66e1-4f6b-834a-a3032d6ca825")
+		(uuid "286ea0fc-a271-42c6-afb8-31a5a4c28a12")
 	)
 	(wire
 		(pts
@@ -1934,26 +1430,6 @@
 			(type default)
 		)
 		(uuid "29b05930-fa61-4bba-af69-9e49331072c1")
-	)
-	(wire
-		(pts
-			(xy 148.59 66.294) (xy 148.59 72.644)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ad497a8-b783-4fe9-817b-9ac970662b00")
-	)
-	(wire
-		(pts
-			(xy 199.39 66.294) (xy 199.39 72.644)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ae4291e-4bc4-4cba-a5b8-518532d7ecb5")
 	)
 	(wire
 		(pts
@@ -1997,23 +1473,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 85.344) (xy 97.79 91.694)
+			(xy 105.41 66.294) (xy 105.41 72.644)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "358ac3ac-818d-4f31-af00-19af38d4240f")
-	)
-	(wire
-		(pts
-			(xy 97.79 53.594) (xy 97.79 59.944)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "386c6f48-3d41-46a3-a089-894c06f7d4fb")
+		(uuid "3436dae8-0eb6-4d03-ab23-1af24245f5b6")
 	)
 	(wire
 		(pts
@@ -2077,6 +1543,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 53.594) (xy 105.41 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45574e18-67b8-4263-86b8-cc6f4e50a1a9")
+	)
+	(wire
+		(pts
 			(xy 166.37 53.594) (xy 166.37 56.134)
 		)
 		(stroke
@@ -2087,13 +1563,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 78.994) (xy 97.79 85.344)
+			(xy 80.01 59.944) (xy 80.01 53.594)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "459061c9-0bee-4f78-af1d-0bd0fd27949d")
+		(uuid "478bbff6-0589-4519-8916-3ee5585a37fa")
 	)
 	(wire
 		(pts
@@ -2127,23 +1603,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 91.694) (xy 97.79 98.044)
+			(xy 80.01 72.644) (xy 80.01 66.294)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b035356-e343-4593-9b7f-3d8f6ee03242")
-	)
-	(wire
-		(pts
-			(xy 148.59 59.944) (xy 148.59 66.294)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f67fff6-6ea8-4db5-adb5-fa6862add244")
+		(uuid "4a4f020b-ac45-4ccf-8d1d-386703af1edd")
 	)
 	(wire
 		(pts
@@ -2187,13 +1653,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 53.594) (xy 123.19 59.944)
+			(xy 80.01 66.294) (xy 80.01 59.944)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5612693e-ce20-4686-8960-45a0fba18c1b")
+		(uuid "58151f91-09a8-4071-97ca-20367011df69")
 	)
 	(wire
 		(pts
@@ -2237,16 +1703,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 78.994) (xy 123.19 85.344)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cda07bc-490a-4abd-9ce0-fd9ffe837fd8")
-	)
-	(wire
-		(pts
 			(xy 115.57 48.26) (xy 140.97 48.26)
 		)
 		(stroke
@@ -2264,16 +1720,6 @@
 			(type default)
 		)
 		(uuid "63c97132-df5f-41ac-a20b-e2a8098415a7")
-	)
-	(wire
-		(pts
-			(xy 148.59 53.594) (xy 148.59 59.944)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c00c41-da1e-4457-83a9-ef43d55b100f")
 	)
 	(wire
 		(pts
@@ -2307,26 +1753,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 45.72) (xy 97.79 53.594)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a20ea82-4834-4244-8643-8674094b40de")
-	)
-	(wire
-		(pts
-			(xy 199.39 45.72) (xy 199.39 53.594)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6020e3-a5e9-4a00-9f18-f980c7a9a955")
-	)
-	(wire
-		(pts
 			(xy 115.57 85.344) (xy 115.57 87.884)
 		)
 		(stroke
@@ -2347,6 +1773,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 59.944) (xy 105.41 66.294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e68ac3-92ba-4385-9d7a-abc791f2542a")
+	)
+	(wire
+		(pts
 			(xy 154.94 147.574) (xy 157.48 147.574)
 		)
 		(stroke
@@ -2354,26 +1790,6 @@
 			(type default)
 		)
 		(uuid "73d1867d-9980-4ec9-9793-37b8cee0b4e0")
-	)
-	(wire
-		(pts
-			(xy 123.19 45.72) (xy 123.19 53.594)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "744b6292-0320-4f21-a93c-ca762b21e501")
-	)
-	(wire
-		(pts
-			(xy 148.59 78.994) (xy 148.59 85.344)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7568f5ae-a265-4f65-b2ef-47e18cf8c5c2")
 	)
 	(wire
 		(pts
@@ -2417,36 +1833,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 59.944) (xy 173.99 66.294)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8204c2b3-644d-44f8-aa6c-4c188a3a1288")
-	)
-	(wire
-		(pts
-			(xy 123.19 59.944) (xy 123.19 66.294)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84674ef5-f1dd-4a3c-ac9f-123253710114")
-	)
-	(wire
-		(pts
-			(xy 148.59 72.644) (xy 148.59 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8515bcf4-793a-4348-aee2-8dae6d57d8b4")
-	)
-	(wire
-		(pts
 			(xy 191.77 87.884) (xy 191.77 85.344)
 		)
 		(stroke
@@ -2474,16 +1860,6 @@
 			(type default)
 		)
 		(uuid "8bfb01dd-2dbc-46e2-9af0-8506526438b8")
-	)
-	(wire
-		(pts
-			(xy 72.39 78.994) (xy 72.39 72.644)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d3136cc-d3d2-47fb-b1c9-dc4708db1786")
 	)
 	(wire
 		(pts
@@ -2527,6 +1903,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 45.72) (xy 80.264 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c6d508-6eaf-4bc1-a3b7-70f0d26d4f40")
+	)
+	(wire
+		(pts
 			(xy 166.37 100.584) (xy 191.77 100.584)
 		)
 		(stroke
@@ -2537,13 +1923,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 85.344) (xy 173.99 91.694)
+			(xy 105.41 91.694) (xy 105.41 98.044)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94ed2966-74d6-4b3a-8986-5cdc9c01e64b")
+		(uuid "991197e8-3c69-4092-9d87-3f21e9a77b1e")
 	)
 	(wire
 		(pts
@@ -2587,6 +1973,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 72.644) (xy 105.41 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffce77e-8d89-4ec7-86ce-fcde87a569c5")
+	)
+	(wire
+		(pts
 			(xy 115.57 72.644) (xy 115.57 75.184)
 		)
 		(stroke
@@ -2594,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "a23a712a-e62e-49a1-9467-ef40b89cc559")
+	)
+	(wire
+		(pts
+			(xy 105.41 45.72) (xy 105.41 53.594)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42cb45f-9985-407d-bed2-c99c458dc46a")
 	)
 	(wire
 		(pts
@@ -2637,16 +2043,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.694) (xy 72.39 85.344)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b274f6a8-096b-40b7-8dc0-2fe5b97e8baf")
-	)
-	(wire
-		(pts
 			(xy 140.97 53.594) (xy 140.97 56.134)
 		)
 		(stroke
@@ -2667,26 +2063,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.694) (xy 148.59 98.044)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbcd997e-b630-46e9-b59b-84ceb916a59c")
-	)
-	(wire
-		(pts
-			(xy 148.59 45.466) (xy 148.59 53.594)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb9770a-4235-431c-8cd2-989f9aa6fd64")
-	)
-	(wire
-		(pts
 			(xy 166.37 75.184) (xy 191.77 75.184)
 		)
 		(stroke
@@ -2694,6 +2070,16 @@
 			(type default)
 		)
 		(uuid "c17161a9-9406-4c76-aca8-e704cb43bba6")
+	)
+	(wire
+		(pts
+			(xy 207.01 53.594) (xy 207.01 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c228b4fb-136d-410f-8b5f-31fa752a6a0a")
 	)
 	(wire
 		(pts
@@ -2707,26 +2093,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 72.644) (xy 97.79 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c51cd69e-39ec-4533-84d6-858a95913560")
-	)
-	(wire
-		(pts
-			(xy 72.39 45.72) (xy 72.39 53.594)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c53ca5c2-7675-4ef7-aa7a-41691391ba3a")
-	)
-	(wire
-		(pts
 			(xy 90.17 45.72) (xy 90.17 48.26)
 		)
 		(stroke
@@ -2737,6 +2103,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 59.944) (xy 207.01 66.294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60aeb45-39a6-4749-be70-167a9ab14572")
+	)
+	(wire
+		(pts
 			(xy 90.17 66.294) (xy 90.17 68.58)
 		)
 		(stroke
@@ -2744,6 +2120,16 @@
 			(type default)
 		)
 		(uuid "c6cd2c33-d5dd-45bf-843a-3b18ed9b4b47")
+	)
+	(wire
+		(pts
+			(xy 105.41 85.344) (xy 105.41 91.694)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3a8d36-2b23-4439-9851-1e48549a0523")
 	)
 	(wire
 		(pts
@@ -2767,16 +2153,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 91.694) (xy 123.19 98.044)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d160ce74-53ce-4d5b-b2e8-ddf25f4d3f01")
-	)
-	(wire
-		(pts
 			(xy 140.97 66.294) (xy 140.97 68.58)
 		)
 		(stroke
@@ -2784,26 +2160,6 @@
 			(type default)
 		)
 		(uuid "d168a716-a126-48a4-ae00-a740a38e86c8")
-	)
-	(wire
-		(pts
-			(xy 72.39 59.944) (xy 72.39 53.594)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4bf6e43-75dc-4b4b-8626-1c666e589e26")
-	)
-	(wire
-		(pts
-			(xy 173.99 72.644) (xy 173.99 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d9d159-19a7-42a0-8ff4-76f0169f3eb9")
 	)
 	(wire
 		(pts
@@ -2847,16 +2203,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 72.644) (xy 123.19 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df9e9a78-a11f-4eda-bb7b-59fcac0beac3")
-	)
-	(wire
-		(pts
 			(xy 90.17 94.234) (xy 90.17 91.694)
 		)
 		(stroke
@@ -2897,13 +2243,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 91.694) (xy 173.99 98.044)
+			(xy 80.01 53.594) (xy 80.01 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7fc5bb9-c1ad-4e3d-b3d3-e7b52f4e89f1")
+		(uuid "e6a15e49-9fdc-49ad-bce3-b2d4e37e56a9")
+	)
+	(wire
+		(pts
+			(xy 80.01 85.344) (xy 80.01 78.994)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c3c009-1ff0-45aa-8060-213dec89963c")
 	)
 	(wire
 		(pts
@@ -2927,13 +2283,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 78.994) (xy 173.99 85.344)
+			(xy 207.01 66.294) (xy 207.01 72.644)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb546bc3-c39e-4cfd-abd7-3273f8f7058d")
+		(uuid "eaa45df4-d4e9-4fab-badc-b51503c07119")
 	)
 	(wire
 		(pts
@@ -2947,26 +2303,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 66.294) (xy 173.99 72.644)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed334ebe-93dd-414d-8646-f0922fb6405f")
-	)
-	(wire
-		(pts
-			(xy 123.19 85.344) (xy 123.19 91.694)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16ecd48-bf7f-4df7-941a-82dae9ede1db")
-	)
-	(wire
-		(pts
 			(xy 191.77 48.26) (xy 217.17 48.26)
 		)
 		(stroke
@@ -2974,16 +2310,6 @@
 			(type default)
 		)
 		(uuid "f17eb1ec-e7da-420b-988e-7a65e94e87b5")
-	)
-	(wire
-		(pts
-			(xy 72.39 85.344) (xy 72.39 78.994)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f453f57b-2e44-42cd-bab5-244e37862b62")
 	)
 	(wire
 		(pts
@@ -2997,23 +2323,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 45.72) (xy 173.99 53.594)
+			(xy 105.41 78.994) (xy 105.41 85.344)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f54dca06-7941-419a-8770-bb6dd40ae101")
-	)
-	(wire
-		(pts
-			(xy 199.39 59.944) (xy 199.39 66.294)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61ba8e7-260e-4cec-9020-e3a22d2d02ae")
+		(uuid "f4fe2982-582f-4c14-9b06-ad7efba3894d")
 	)
 	(wire
 		(pts
@@ -3037,16 +2353,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.294) (xy 72.39 59.944)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95ff556-1e50-48f2-a8f3-95cfba8a88c5")
-	)
-	(wire
-		(pts
 			(xy 90.17 100.584) (xy 115.57 100.584)
 		)
 		(stroke
@@ -3067,16 +2373,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 53.594) (xy 199.39 59.944)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb81fade-d138-41e6-96c2-7b5e245cfaab")
-	)
-	(wire
-		(pts
 			(xy 166.37 48.26) (xy 166.37 45.466)
 		)
 		(stroke
@@ -3084,26 +2380,6 @@
 			(type default)
 		)
 		(uuid "fcb36df9-0a5f-441f-9806-305b9219f968")
-	)
-	(wire
-		(pts
-			(xy 148.59 85.344) (xy 148.59 91.694)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcce1860-d2af-40b5-b4ef-14d7ce6a75be")
-	)
-	(wire
-		(pts
-			(xy 72.39 91.694) (xy 72.39 98.044)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe19b76e-150a-4104-b6a8-d31c84190f26")
 	)
 	(wire
 		(pts
@@ -3135,16 +2411,6 @@
 		)
 		(uuid "012bf035-bc9d-4b0e-b177-47aeb69a191f")
 	)
-	(label "C4"
-		(at 148.59 66.294 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "015ee7af-9aa7-4ef3-8272-58c1d24f6da8")
-	)
 	(label "C3"
 		(at 130.81 78.994 180)
 		(effects
@@ -3156,44 +2422,14 @@
 		(uuid "0197971c-b9ad-4bb4-beed-b6a7a4f39b16")
 	)
 	(label "C3"
-		(at 130.81 66.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01a26876-bd98-4cd7-b8cd-82bf38432fab")
-	)
-	(label "C5"
-		(at 181.61 59.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "045f3c22-2fa9-4b81-b1cc-a7ab35aede05")
-	)
-	(label "C5"
-		(at 181.61 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0518c0e4-8585-422f-978f-17856aac8e06")
-	)
-	(label "C5"
-		(at 173.99 78.994 180)
+		(at 123.19 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "05eecaca-51d3-4e9a-a6c0-301e2c46f153")
+		(uuid "03c2a2c6-f5a9-438e-8be1-0ff0c3aa680a")
 	)
 	(label "C3"
 		(at 121.92 112.014 90)
@@ -3204,36 +2440,6 @@
 			(justify left bottom)
 		)
 		(uuid "06ac09e5-bbf8-40e4-925e-79bdc37e68ee")
-	)
-	(label "C1"
-		(at 72.39 53.594 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06ec6521-dd38-4103-8d5c-91a032129438")
-	)
-	(label "C4"
-		(at 156.21 45.466 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07c1605c-5e6b-42a4-a62b-af8a951502ce")
-	)
-	(label "C4"
-		(at 156.21 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a0d322c-40f8-45ac-9d2e-5d1b0c4ee8b6")
 	)
 	(label "GND"
 		(at 134.62 112.014 90)
@@ -3256,16 +2462,6 @@
 		(uuid "0d219a0c-499a-4879-b7d1-c5a77418a3df")
 	)
 	(label "C2"
-		(at 105.41 66.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e88cd59-94f9-413a-8716-7a898fca54cf")
-	)
-	(label "C2"
 		(at 105.41 66.294 180)
 		(effects
 			(font
@@ -3284,16 +2480,6 @@
 			(justify right bottom)
 		)
 		(uuid "0f10ece3-e368-4be6-b17d-30367edbe9c6")
-	)
-	(label "C2"
-		(at 97.79 66.294 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0fc8d6cc-378a-4263-a492-c481d1ad02f8")
 	)
 	(label "C5"
 		(at 181.61 91.694 180)
@@ -3314,16 +2500,6 @@
 			(justify right bottom)
 		)
 		(uuid "127eb37f-17b6-45e1-b55a-337e82f5b0ea")
-	)
-	(label "C4"
-		(at 148.59 45.466 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "136ca9ae-57bc-41ae-91dc-eb207b11b42b")
 	)
 	(label "R2"
 		(at 166.37 53.594 0)
@@ -3405,26 +2581,6 @@
 		)
 		(uuid "1e1ab030-4d40-433c-a61f-66c76899bd38")
 	)
-	(label "C3"
-		(at 130.81 85.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ed0bbf6-8f48-4fee-83fa-a1429f511143")
-	)
-	(label "C5"
-		(at 173.99 59.944 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "20727d9d-b9e6-447e-9b68-d8c7efb4050b")
-	)
 	(label "C2"
 		(at 97.79 78.994 180)
 		(effects
@@ -3434,26 +2590,6 @@
 			(justify right bottom)
 		)
 		(uuid "240941ab-a232-40c9-b8a7-e84e73ac262f")
-	)
-	(label "C2"
-		(at 105.41 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24539af6-b524-4946-bfee-98191d83ebac")
-	)
-	(label "C5"
-		(at 181.61 78.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25ea4091-2f6c-4b9e-8176-66a6facae579")
 	)
 	(label "R7"
 		(at 140.97 85.344 0)
@@ -3495,16 +2631,6 @@
 		)
 		(uuid "2af29366-f5ea-4e9e-b72e-fd306c574a30")
 	)
-	(label "C2"
-		(at 97.79 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cca61d2-d508-4ade-adc3-5bf8f6af05f2")
-	)
 	(label "R8"
 		(at 191.77 91.694 0)
 		(effects
@@ -3535,36 +2661,6 @@
 		)
 		(uuid "2f3c0403-12f2-4661-a69c-4cf8037646ef")
 	)
-	(label "C1"
-		(at 80.01 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30797f39-9a21-42a5-9b7b-f969c3a3c39b")
-	)
-	(label "C4"
-		(at 148.59 78.994 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "30a15a3e-e905-4ca8-8ce9-75c41d92e903")
-	)
-	(label "C5"
-		(at 181.61 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3207e736-4002-4e9e-9679-941d0f5f80e2")
-	)
 	(label "R1"
 		(at 191.77 45.72 0)
 		(effects
@@ -3574,36 +2670,6 @@
 			(justify left bottom)
 		)
 		(uuid "32126632-55bc-4536-bf3f-dc49bf6fe19f")
-	)
-	(label "C4"
-		(at 156.21 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32f96521-d1df-4034-a761-39637cf9a85a")
-	)
-	(label "C1"
-		(at 72.39 98.044 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "345f074b-625b-469d-bdfd-8e54713e0d5b")
-	)
-	(label "C4"
-		(at 156.21 66.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "364ae407-3a6d-4869-b106-db6d1c78bdd9")
 	)
 	(label "C2"
 		(at 97.79 91.694 180)
@@ -3655,16 +2721,6 @@
 		)
 		(uuid "3ad86588-802f-4988-9a18-b2a108fceb23")
 	)
-	(label "C1"
-		(at 72.39 91.694 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e0b5d4e-e926-446e-81cd-5b928749f02e")
-	)
 	(label "C6"
 		(at 207.01 59.944 180)
 		(effects
@@ -3704,16 +2760,6 @@
 			(justify left bottom)
 		)
 		(uuid "4523f796-4356-4546-a74b-3655215d5f1e")
-	)
-	(label "C5"
-		(at 173.99 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "45f408a8-31fd-48e6-b109-ae2b8060abc9")
 	)
 	(label "C1"
 		(at 116.84 112.014 90)
@@ -3756,16 +2802,6 @@
 		(uuid "485c3a00-f5e1-4f12-8038-2314db1e587f")
 	)
 	(label "C1"
-		(at 80.01 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "490cc89c-475e-4c48-a627-9b69db69cc7b")
-	)
-	(label "C1"
 		(at 80.01 85.344 180)
 		(effects
 			(font
@@ -3774,16 +2810,6 @@
 			(justify right bottom)
 		)
 		(uuid "4a01a980-0f63-4f3e-b68b-788d182789cf")
-	)
-	(label "C1"
-		(at 72.39 85.344 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4a4770b4-350a-4666-8463-3a2ccc484ae0")
 	)
 	(label "R3"
 		(at 191.77 59.944 0)
@@ -3806,6 +2832,16 @@
 		(uuid "4ba73d39-b92b-4d3e-a0ac-b0362212439b")
 	)
 	(label "C4"
+		(at 148.59 45.466 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4dfa16c5-8101-490c-955e-8baf7cc2fe8d")
+	)
+	(label "C4"
 		(at 156.21 53.594 180)
 		(effects
 			(font
@@ -3814,16 +2850,6 @@
 			(justify right bottom)
 		)
 		(uuid "4e91b403-954a-4ea7-a921-3cbc9e7438a6")
-	)
-	(label "C5"
-		(at 181.61 66.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4fafa0ef-1711-469f-bdb9-883631d1064b")
 	)
 	(label "R8"
 		(at 154.94 112.014 90)
@@ -3875,46 +2901,6 @@
 		)
 		(uuid "57f0aace-e523-4278-b21d-e841a08c80c1")
 	)
-	(label "C4"
-		(at 156.21 78.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "588da0fc-e3d9-42bb-80b2-6862958e3189")
-	)
-	(label "C3"
-		(at 123.19 98.044 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5967b3ef-0944-488f-b190-8a2c58196cca")
-	)
-	(label "C5"
-		(at 181.61 85.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59929022-eb08-4ded-a3fc-60022493b933")
-	)
-	(label "C6"
-		(at 199.39 72.644 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e5ce50e-f31b-47e6-93ad-f1766047abc0")
-	)
 	(label "R9"
 		(at 166.37 98.044 0)
 		(effects
@@ -3925,16 +2911,6 @@
 		)
 		(uuid "5ee672be-d239-4c84-88c9-eb73f18f721e")
 	)
-	(label "C5"
-		(at 181.61 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f3b32ef-4bf1-4058-9d7b-edd574e15488")
-	)
 	(label "R3"
 		(at 90.17 59.944 0)
 		(effects
@@ -3944,26 +2920,6 @@
 			(justify left bottom)
 		)
 		(uuid "614b8aa4-3509-447e-91b4-03e23d59c7b5")
-	)
-	(label "C3"
-		(at 123.19 72.644 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62ade25a-3fe7-4560-bac6-7b2fcac84a5f")
-	)
-	(label "C1"
-		(at 80.01 66.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62e11a14-1143-48fc-8edc-31a6d1b10730")
 	)
 	(label "R6"
 		(at 115.57 78.994 0)
@@ -3994,16 +2950,6 @@
 			(justify right bottom)
 		)
 		(uuid "64c910fd-0c29-4018-a9aa-b62f0ae3eb0a")
-	)
-	(label "C3"
-		(at 123.19 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "660fca0b-b97f-46ee-bebd-e694a549e7a1")
 	)
 	(label "C1"
 		(at 80.01 45.72 180)
@@ -4055,16 +3001,6 @@
 		)
 		(uuid "6c1e4be6-9fb8-4aea-a188-0871219c47d8")
 	)
-	(label "C3"
-		(at 123.19 91.694 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6fa494fa-432c-4b8a-9169-ebd2a75f2e9b")
-	)
 	(label "C2"
 		(at 105.41 53.594 180)
 		(effects
@@ -4074,26 +3010,6 @@
 			(justify right bottom)
 		)
 		(uuid "6fdd30cc-e0c7-4cc5-8435-e60743e7a369")
-	)
-	(label "C1"
-		(at 72.39 98.044 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7027855c-b882-412b-86e9-ae180b476ad5")
-	)
-	(label "C1"
-		(at 80.01 78.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7183097b-d5df-43ac-b0a0-bd1b14cc2acf")
 	)
 	(label "R5"
 		(at 191.77 72.644 0)
@@ -4114,46 +3030,6 @@
 			(justify right bottom)
 		)
 		(uuid "79c0b31a-f48a-42ad-b8e1-16b4ba5511de")
-	)
-	(label "C4"
-		(at 156.21 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b37fd3f-b365-44b9-b89c-8ffb116e805e")
-	)
-	(label "C4"
-		(at 148.59 72.644 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ba01640-1d22-48a1-b143-45b799bbd2f2")
-	)
-	(label "C1"
-		(at 72.39 59.944 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7bc76422-d64c-4313-a6ec-4f48ee7d7385")
-	)
-	(label "C3"
-		(at 123.19 78.994 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7bdee071-7b49-4f70-b4d3-4531773ffa60")
 	)
 	(label "R4"
 		(at 140.97 66.294 0)
@@ -4185,16 +3061,6 @@
 		)
 		(uuid "7f118a9f-a696-4d97-9a35-77f29438bd43")
 	)
-	(label "C5"
-		(at 173.99 72.644 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8024c22c-d13b-4b16-a477-80f50f843f8c")
-	)
 	(label "R3"
 		(at 115.57 59.944 0)
 		(effects
@@ -4205,15 +3071,15 @@
 		)
 		(uuid "8132aacf-ddc4-4015-b245-3b3a607489f1")
 	)
-	(label "C2"
-		(at 105.41 59.944 0)
+	(label "C4"
+		(at 148.844 53.594 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8253da18-4e31-4bbc-a19a-dad9fbe3979a")
+		(uuid "81e26e69-eb45-4b0a-a230-33ff55e0722f")
 	)
 	(label "R2"
 		(at 191.77 53.594 0)
@@ -4224,26 +3090,6 @@
 			(justify left bottom)
 		)
 		(uuid "84960b3a-d986-4c63-912e-c699e46bd633")
-	)
-	(label "C2"
-		(at 105.41 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85a63d49-3c28-4180-8cb6-de711613974e")
-	)
-	(label "C6"
-		(at 199.39 59.944 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8640cc6f-67fa-4183-8aa3-4921186cfebe")
 	)
 	(label "R7"
 		(at 191.77 85.344 0)
@@ -4266,16 +3112,6 @@
 		(uuid "88130527-b995-40b8-97e7-cb03f695e01e")
 	)
 	(label "C6"
-		(at 199.39 66.294 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b5ce3e6-6a0b-4927-a32b-6ec17221fdd7")
-	)
-	(label "C6"
 		(at 207.01 45.72 180)
 		(effects
 			(font
@@ -4284,6 +3120,16 @@
 			(justify right bottom)
 		)
 		(uuid "8c055b9a-c45a-4682-979b-cd207bb835c5")
+	)
+	(label "C5"
+		(at 174.244 78.994 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dceaef1-f2b5-4b23-afd2-5cda23eedde1")
 	)
 	(label "R1"
 		(at 132.08 112.014 90)
@@ -4305,16 +3151,6 @@
 		)
 		(uuid "8e60d0bf-8487-4638-bc04-c303cf3a97ab")
 	)
-	(label "C2"
-		(at 105.41 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ef5f939-df73-4ed5-ba3b-8d1cdc6e6d2e")
-	)
 	(label "C3"
 		(at 130.81 91.694 180)
 		(effects
@@ -4325,26 +3161,6 @@
 		)
 		(uuid "900b7aae-1212-4aec-a131-575d409f5dc1")
 	)
-	(label "C1"
-		(at 80.01 59.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9100ad86-4e5f-4326-ad66-58787022548c")
-	)
-	(label "C4"
-		(at 156.21 59.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91a89be3-3627-44b5-b977-4f11a309ec29")
-	)
 	(label "C6"
 		(at 129.54 112.014 90)
 		(effects
@@ -4354,26 +3170,6 @@
 			(justify left bottom)
 		)
 		(uuid "927a11e1-87c2-418a-8c48-7bd468f9af67")
-	)
-	(label "C3"
-		(at 130.81 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9539633a-aa89-4304-a460-ec7fea637c0d")
-	)
-	(label "C3"
-		(at 123.19 66.294 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "960934a6-67fc-4ec5-a8da-491a9ca46f43")
 	)
 	(label "R7"
 		(at 152.4 112.014 90)
@@ -4405,46 +3201,6 @@
 		)
 		(uuid "978fb7ec-c213-4ed3-a531-50156788de8f")
 	)
-	(label "C3"
-		(at 130.81 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98ea8d9a-7ef9-4229-989b-2720a3790c43")
-	)
-	(label "C1"
-		(at 80.01 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a2238b0-c3a3-474c-8fdc-838a42c2cc2a")
-	)
-	(label "C5"
-		(at 173.99 98.044 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9cc769f7-811e-4047-82d3-8d054bf6535e")
-	)
-	(label "C3"
-		(at 123.19 85.344 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9cf94385-fc02-4984-b922-f2b84f6d5757")
-	)
 	(label "R1"
 		(at 115.57 45.72 0)
 		(effects
@@ -4465,16 +3221,6 @@
 		)
 		(uuid "9e939315-b9ef-4e6d-895d-217bfbf0b656")
 	)
-	(label "C5"
-		(at 181.61 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9feca8c3-6e50-49ea-89ae-23bcb5fc93e1")
-	)
 	(label "R5"
 		(at 115.57 72.644 0)
 		(effects
@@ -4485,25 +3231,25 @@
 		)
 		(uuid "a15174d1-557f-4d28-8803-0fdcdce6833c")
 	)
-	(label "C2"
-		(at 105.41 72.644 0)
+	(label "C4"
+		(at 156.21 45.466 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "a193e6e6-208a-40f2-9aed-8b8e48027c95")
+		(uuid "a1cab145-59da-4d30-a2e3-3f3d58b16484")
 	)
-	(label "C5"
-		(at 181.61 53.594 0)
+	(label "C3"
+		(at 123.444 53.594 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "a3322376-333c-4dff-a396-6abd51d85d52")
+		(uuid "a2235432-71d9-4817-8a00-61d6acc9ade0")
 	)
 	(label "R3"
 		(at 140.97 59.944 0)
@@ -4515,16 +3261,6 @@
 		)
 		(uuid "a4bbf2be-af88-4b8f-920b-f912d8f99337")
 	)
-	(label "C5"
-		(at 173.99 91.694 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7701edb-bb27-4237-8470-822e531286cb")
-	)
 	(label "R4"
 		(at 144.78 112.014 90)
 		(effects
@@ -4534,16 +3270,6 @@
 			(justify left bottom)
 		)
 		(uuid "a803120a-8dec-4a82-beb9-abbca9a85641")
-	)
-	(label "C5"
-		(at 173.99 53.594 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a808e938-5047-40ec-bbb7-f3f8abd2b610")
 	)
 	(label "R1"
 		(at 140.97 45.72 0)
@@ -4565,16 +3291,6 @@
 		)
 		(uuid "ac52f297-aa9f-4083-90be-0767287fe708")
 	)
-	(label "C4"
-		(at 148.59 98.044 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "acb982b9-8af2-400c-811f-58428baf1f88")
-	)
 	(label "R4"
 		(at 191.77 66.294 0)
 		(effects
@@ -4595,46 +3311,6 @@
 		)
 		(uuid "adcc5edc-abfa-4e93-a004-fd1f8e55ac69")
 	)
-	(label "C5"
-		(at 173.99 66.294 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af296bf9-60e3-4670-baf9-138966c69a8c")
-	)
-	(label "C3"
-		(at 130.81 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b22468e9-bea2-4db7-821e-53d1ea4df967")
-	)
-	(label "C1"
-		(at 80.01 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2382f60-e8f7-4228-8be8-f92f7b623c59")
-	)
-	(label "C3"
-		(at 130.81 59.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2dcb139-791f-4e97-ab48-647737e21d33")
-	)
 	(label "R4"
 		(at 166.37 66.294 0)
 		(effects
@@ -4645,15 +3321,15 @@
 		)
 		(uuid "b531699c-6b16-4d4d-9a89-56862f3cc62a")
 	)
-	(label "C2"
-		(at 105.41 78.994 0)
+	(label "C5"
+		(at 181.61 53.594 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "b9a29f14-086b-47ea-be6f-543f8cfcbc3e")
+		(uuid "b63f3f80-f154-4eff-a706-0671844fae84")
 	)
 	(label "R8"
 		(at 140.97 91.694 0)
@@ -4664,16 +3340,6 @@
 			(justify left bottom)
 		)
 		(uuid "be638f90-2d0d-488c-85b5-b64e183a2672")
-	)
-	(label "C5"
-		(at 181.61 53.594 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0458915-78e5-48f0-9307-0817c5db5707")
 	)
 	(label "R6"
 		(at 191.77 78.994 0)
@@ -4695,26 +3361,6 @@
 		)
 		(uuid "c456dcb3-befb-4f3c-8502-9fe6d19f9ec1")
 	)
-	(label "C5"
-		(at 173.99 85.344 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c64f8d6f-722a-4d1d-878b-55c5152584e0")
-	)
-	(label "C3"
-		(at 130.81 78.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c68f8d92-8be1-4db6-83b1-8e6a827f6326")
-	)
 	(label "C1"
 		(at 80.01 59.944 180)
 		(effects
@@ -4724,26 +3370,6 @@
 			(justify right bottom)
 		)
 		(uuid "c822eaa9-7b7a-4452-a117-8c00b628063e")
-	)
-	(label "C1"
-		(at 80.01 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca66c263-00aa-43dd-9644-6525faf122fe")
-	)
-	(label "C6"
-		(at 199.39 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ca7d13da-f7c1-444c-bd25-5f868fd25058")
 	)
 	(label "C1"
 		(at 80.01 66.294 180)
@@ -4765,16 +3391,6 @@
 		)
 		(uuid "cb62c145-322f-4b08-bdac-0c4ce432438c")
 	)
-	(label "C1"
-		(at 72.39 78.994 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbd39d59-5ea8-4ee7-a506-bc3106dce36b")
-	)
 	(label "C2"
 		(at 105.41 59.944 180)
 		(effects
@@ -4794,26 +3410,6 @@
 			(justify right bottom)
 		)
 		(uuid "ccdd1fad-b04b-4cbb-9f08-af9ac8867167")
-	)
-	(label "C4"
-		(at 148.59 85.344 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cdb0f79f-61a7-4d6a-86ee-ab4e6fa5e198")
-	)
-	(label "C2"
-		(at 105.41 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfb3b6e2-7ac3-4254-ade3-2f8addf2b10d")
 	)
 	(label "C4"
 		(at 156.21 66.294 180)
@@ -4845,25 +3441,15 @@
 		)
 		(uuid "d0747053-1ab9-487a-bcdf-1aeea4a82bf1")
 	)
-	(label "C1"
-		(at 72.39 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1d4162e-eb33-41de-af66-372e495d47da")
-	)
 	(label "C4"
-		(at 148.59 91.694 180)
+		(at 148.59 78.994 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d2396d3a-2afa-410e-9f8f-2bdfd993f6d1")
+		(uuid "d21dda1c-0678-44e3-b27a-3247c6b24879")
 	)
 	(label "R7"
 		(at 166.37 85.344 0)
@@ -4876,16 +3462,6 @@
 		(uuid "d2821679-4bcb-41a7-956f-9e596747ed38")
 	)
 	(label "C2"
-		(at 97.79 59.944 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d30b1eb3-5ec7-4e6f-a093-3a101eb262c9")
-	)
-	(label "C2"
 		(at 119.38 112.014 90)
 		(effects
 			(font
@@ -4894,16 +3470,6 @@
 			(justify left bottom)
 		)
 		(uuid "d554a5d7-e05c-4c20-889b-61f2b701c11d")
-	)
-	(label "C4"
-		(at 156.21 85.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5cd101c-4abb-41f3-86ad-066f82f4b015")
 	)
 	(label "R9"
 		(at 115.57 98.044 0)
@@ -4935,36 +3501,6 @@
 		)
 		(uuid "dac78ccb-f861-4fa0-ac79-182b113336c6")
 	)
-	(label "C2"
-		(at 97.79 53.594 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "db5be093-0bea-4a38-80ec-7e389aeb596d")
-	)
-	(label "C1"
-		(at 72.39 72.644 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd9ac7b6-e495-4fac-90c6-ab1bbb2b842a")
-	)
-	(label "C3"
-		(at 123.19 59.944 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de289783-7e75-4c2f-953c-b76d182215b3")
-	)
 	(label "C3"
 		(at 130.81 53.594 180)
 		(effects
@@ -4984,16 +3520,6 @@
 			(justify left bottom)
 		)
 		(uuid "e0346c1a-6c44-47cb-b31f-7bf82eb1e66d")
-	)
-	(label "C3"
-		(at 130.81 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1343215-2db1-44fa-bedc-0a6645362b6b")
 	)
 	(label "C2"
 		(at 97.79 98.044 180)
@@ -5024,16 +3550,6 @@
 			(justify left bottom)
 		)
 		(uuid "e519b1ea-d1ae-4184-be58-932f0cc20d1b")
-	)
-	(label "C1"
-		(at 72.39 66.294 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e74ee1e6-85b9-497b-8fd1-7aeb984e4de4")
 	)
 	(label "C2"
 		(at 105.41 72.644 180)
@@ -5095,16 +3611,6 @@
 		)
 		(uuid "ee38e101-629c-4e74-84a5-6425962257ba")
 	)
-	(label "C3"
-		(at 123.19 53.594 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eed66325-a6d2-4499-80c1-d560c9868200")
-	)
 	(label "R3"
 		(at 217.17 59.944 0)
 		(effects
@@ -5115,16 +3621,6 @@
 		)
 		(uuid "ef2e445e-394c-46a7-bf40-3230c29b415d")
 	)
-	(label "C4"
-		(at 156.21 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2bf324d-f760-4411-ad97-e20ae011dbf7")
-	)
 	(label "R9"
 		(at 191.77 98.044 0)
 		(effects
@@ -5134,16 +3630,6 @@
 			(justify left bottom)
 		)
 		(uuid "f2f472bd-0b55-4526-9753-bf783737901c")
-	)
-	(label "C6"
-		(at 199.39 53.594 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f3b6c0b9-f01b-4824-a843-c03ea0768fb2")
 	)
 	(label "C4"
 		(at 156.21 59.944 180)
@@ -5165,16 +3651,6 @@
 		)
 		(uuid "f4b3ee95-4145-4855-9bd3-3f95fc9b0324")
 	)
-	(label "C2"
-		(at 105.41 85.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f546d198-f234-4518-a93c-e7eda5e3b1f3")
-	)
 	(label "R2"
 		(at 140.97 53.594 0)
 		(effects
@@ -5194,36 +3670,6 @@
 			(justify left bottom)
 		)
 		(uuid "f7d842d6-fd1c-487d-b66f-544c23b3c595")
-	)
-	(label "C3"
-		(at 130.81 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "faab4a2f-414d-4efe-a656-ae0582fc35cd")
-	)
-	(label "C4"
-		(at 148.59 53.594 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fb12b90f-5c4f-46b8-9f23-7cbd72b03422")
-	)
-	(label "C1"
-		(at 80.01 85.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc761746-10d9-435a-a15d-63ba57be63f0")
 	)
 	(label "C4"
 		(at 156.972 45.466 180)
@@ -5360,115 +3806,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 53.594 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04aec5fc-810e-48ef-9067-a3a7a9591050")
-		(property "Reference" "D83"
-			(at 153.67 67.818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a6f6719f-67ae-4253-8d2a-af9176a894da")
-		)
-		(pin "1"
-			(uuid "21867162-f70d-4b2b-aa50-e94f1abcceac")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D83")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 135.89 98.044 180)
 		(unit 1)
@@ -5555,6 +3892,110 @@
 							(value "ButtonPads:conductive pad")
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 127 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1431da74-3f70-4d86-959c-5c34c0c47189")
+		(property "Reference" "D1"
+			(at 127 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 127 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 127 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 127 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 127 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8f7bba61-1f18-4c13-bde3-d3cc648ac4f3")
+		)
+		(pin "1"
+			(uuid "1a08777b-b634-426c-baa7-b98453288022")
+		)
+		(instances
+			(project "Cfx-port"
+				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
+					(reference "D1")
+					(unit 1)
 				)
 			)
 		)
@@ -5651,224 +4092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 203.2 53.594 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16e03d2a-a872-4578-bb52-14bb2ef25948")
-		(property "Reference" "D101"
-			(at 204.47 67.818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 204.47 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 203.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 203.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 203.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 203.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "23adccdd-ba19-4296-b3aa-6621de43e022")
-		)
-		(pin "1"
-			(uuid "8328c040-ab30-4537-9dcf-ba7610b2c121")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D101")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "171b0914-b30b-47bd-9e2b-8e893eb361b7")
-		(property "Reference" "D91"
-			(at 179.07 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "39c703bd-5b8b-49f0-b8a2-cbc9ae6efeca")
-		)
-		(pin "1"
-			(uuid "53959257-5929-4867-a565-a70233abbec3")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D91")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 212.09 66.294 180)
 		(unit 1)
@@ -5954,115 +4177,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 127 72.644 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19bb8fae-a673-45bc-a1f0-5768ad29e74b")
-		(property "Reference" "D77"
-			(at 128.27 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 128.27 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1f6b794b-17e9-4c47-b867-1c180f5aac6a")
-		)
-		(pin "1"
-			(uuid "3202c95f-e8b0-4e15-a9d6-b7579a92c3ac")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D77")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -6342,224 +4456,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 203.2 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22035088-5641-49df-b480-b936fce2decf")
-		(property "Reference" "D100"
-			(at 204.47 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 204.47 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3d900afe-d9f9-49da-a7f3-b9928799d94d")
-		)
-		(pin "1"
-			(uuid "3a9cb16a-c6c6-414f-a387-e83ba4c2a099")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D100")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 78.994 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "241c1a8d-d81e-4894-bde1-087bb61af822")
-		(property "Reference" "D96"
-			(at 179.07 93.218 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 95.758 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ae91188-8b69-4985-bf4e-90a580416531")
-		)
-		(pin "1"
-			(uuid "52e99f6f-44b2-42a9-8cc2-98a37535e8a8")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D96")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 85.09 53.594 180)
 		(unit 1)
@@ -6651,6 +4547,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4001")
+		(at 152.4 45.466 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ce8e20-ae33-4b07-a45b-79cf4ed84617")
+		(property "Reference" "D4"
+			(at 152.4 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 152.4 41.656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 152.4 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 152.4 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 152.4 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 152.4 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed31097d-4401-4415-87e1-17aa4467d02d")
+		)
+		(pin "1"
+			(uuid "1b8aa232-1ff7-45ef-ac00-1909dff6540c")
+		)
+		(instances
+			(project "Cfx-port"
+				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 135.89 66.294 180)
 		(unit 1)
@@ -6736,115 +4736,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 59.944 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3aafc100-d601-44a1-8117-b1f159dfd9c8")
-		(property "Reference" "D93"
-			(at 179.07 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a341ba8d-5156-4669-a4ff-234ef38710bd")
-		)
-		(pin "1"
-			(uuid "6057885b-5254-4854-811a-c2cd8b7874e8")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D93")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -7033,115 +4924,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 98.044 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d486009-59a6-4f49-a784-f6169ded0ea1")
-		(property "Reference" "D99"
-			(at 179.07 112.268 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "62a8cbfb-11de-4c1f-b7ed-efc991c6acef")
-		)
-		(pin "1"
-			(uuid "0ceafcc3-fa59-4d70-aed9-e6a851e38ced")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D99")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 212.09 53.594 180)
 		(unit 1)
@@ -7318,662 +5100,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "1N4001_1")
-		(lib_id "Diode:1N4001")
-		(at 101.6 53.594 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4786df4a-47c1-450d-8bcd-8792830b4edc")
-		(property "Reference" "D65"
-			(at 102.87 67.818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3f6e6bc7-502e-4d1e-9896-19542328caa8")
-		)
-		(pin "1"
-			(uuid "e1ee5686-41d7-4514-90ac-5baf1ba982ce")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D65")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 59.944 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f60cfdc-ef24-404f-a047-b95426795f2c")
-		(property "Reference" "D57"
-			(at 77.47 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "66081b61-cf00-4d13-a3ef-e75ad057356f")
-		)
-		(pin "1"
-			(uuid "6e54decf-e7fd-484b-a2bb-20575818ec99")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D57")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 98.044 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "519c899f-a05a-425d-9d55-5d54984d50be")
-		(property "Reference" "D90"
-			(at 153.67 112.268 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "88f05a06-8336-47a5-9506-24bb01990ece")
-		)
-		(pin "1"
-			(uuid "4d033c90-04cf-4786-ab50-b7b331f02581")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D90")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 91.694 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5390c42f-b2e1-43b2-af21-0ecde31366f1")
-		(property "Reference" "D89"
-			(at 153.67 105.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 108.458 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fadfdf74-6beb-4d0a-9e1b-a277d796c216")
-		)
-		(pin "1"
-			(uuid "5822c3f0-37f1-4e81-b36d-ac1260b7815a")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D89")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 101.6 78.994 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5427564c-d039-4347-b749-aec64bedf3d2")
-		(property "Reference" "D69"
-			(at 102.87 93.218 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 95.758 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "defbefde-9346-4134-b237-72c7747f9c05")
-		)
-		(pin "1"
-			(uuid "e40908f1-b302-4ca5-be93-66bacfba7209")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D69")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "1N4001_2")
-		(lib_id "Diode:1N4001")
-		(at 203.2 66.294 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5450bbd7-2fbd-4486-9e0c-00edb2715adb")
-		(property "Reference" "D103"
-			(at 204.47 80.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 204.47 83.058 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 203.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 203.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 203.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 203.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "abf5f324-079b-4320-a37c-8cc2a37d2da5")
-		)
-		(pin "1"
-			(uuid "88381623-5751-461b-9c23-2831d3d11eeb")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D103")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -8162,115 +5288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 127 66.294 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56cf19f2-7363-4a1b-83b5-3854b07e46ba")
-		(property "Reference" "D76"
-			(at 128.27 80.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 128.27 83.058 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cc8e4a50-73ea-4a2a-a620-5d83e23718e2")
-		)
-		(pin "1"
-			(uuid "95e40a36-7af9-4cd8-b547-b0509eebfced")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D76")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 110.49 72.644 180)
 		(unit 1)
@@ -8362,115 +5379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 59.944 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5baaeb73-c473-4083-a091-63480024ae1e")
-		(property "Reference" "D84"
-			(at 153.67 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5106a081-f0ad-4bbc-a2ea-6f27ed21269d")
-		)
-		(pin "1"
-			(uuid "5755dd91-31c1-430f-8d52-1bac6bee8ea7")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D84")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 110.49 98.044 180)
 		(unit 1)
@@ -8556,333 +5464,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 101.6 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63c30504-42ae-4818-a07d-09d7bff7509e")
-		(property "Reference" "D64"
-			(at 102.87 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6993974b-8e20-4c4e-a61e-393c64eb4f9d")
-		)
-		(pin "1"
-			(uuid "27ed17a9-e962-46d9-b634-d2fdedd481e7")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D64")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 101.6 85.344 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66e2c385-d400-473d-9e93-5d5872af5e34")
-		(property "Reference" "D70"
-			(at 102.87 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 102.108 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b9b3aab6-ed7d-406f-b0cc-a6a94468b20e")
-		)
-		(pin "1"
-			(uuid "2691d33b-b0be-4638-81a6-040190dcbd3d")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D70")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 91.694 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "684d8c95-fb18-4b2a-b50a-037718e4460b")
-		(property "Reference" "D62"
-			(at 77.47 105.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 108.458 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3aa6594f-ac35-4d53-b3c9-4cd6a7b5c075")
-		)
-		(pin "1"
-			(uuid "0b0855b5-003d-4662-b0b5-a393d1246f58")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D62")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -9344,115 +5925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 72.644 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "706c1aa2-0e17-4c30-a6ee-5034122c0de9")
-		(property "Reference" "D95"
-			(at 179.07 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "df525e67-c086-418f-91a0-0b51abcb8063")
-		)
-		(pin "1"
-			(uuid "56239fa3-7531-49c9-beb1-e63f33598185")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D95")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 85.09 72.644 180)
 		(unit 1)
@@ -9545,7 +6017,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4001")
-		(at 127 78.994 0)
+		(at 152.654 53.594 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9554,9 +6026,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "772998ac-7878-4f95-bbe5-f8c72604817d")
-		(property "Reference" "D78"
-			(at 128.27 93.218 0)
+		(uuid "73d5ce5f-c083-43eb-b05c-dd5c94056364")
+		(property "Reference" "D3"
+			(at 152.654 47.244 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9564,11 +6036,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1N4001"
-			(at 128.27 95.758 0)
+			(at 152.654 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9576,11 +6047,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 78.994 0)
+			(at 152.654 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9591,7 +6061,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 78.994 0)
+			(at 152.654 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9602,7 +6072,7 @@
 			)
 		)
 		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 78.994 0)
+			(at 152.654 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9613,7 +6083,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 127 78.994 0)
+			(at 152.654 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9624,7 +6094,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 78.994 0)
+			(at 152.654 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9635,128 +6105,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a596377-4716-4db6-983d-9a9d998f8ac3")
+			(uuid "9ed31ce6-a31d-4a6f-96d7-075481d63069")
 		)
 		(pin "1"
-			(uuid "86cfc2e0-1d6d-4e4b-bbac-ee0c79be441f")
+			(uuid "7c4e3d1e-a16e-4645-963b-975caf9a62c6")
 		)
 		(instances
 			(project "Cfx-port"
 				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D78")
+					(reference "D3")
 					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 203.2 59.944 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "785f4978-2983-4a0c-b4db-fd131a1fe397")
-		(property "Reference" "D102"
-			(at 204.47 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 204.47 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 203.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 203.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 203.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 203.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb056c23-103d-436b-876a-c940dffcdf8e")
-		)
-		(pin "1"
-			(uuid "06ff9fae-4bd1-4ad3-8d13-0807dabf5b01")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D102")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
 				)
 			)
 		)
@@ -10274,6 +6632,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 85.09 59.944 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c32e9df4-ea4d-4c06-b86a-119bd65ccd99")
 		)
@@ -10291,333 +6660,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 127 85.344 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83f0a0b1-8598-4074-b90d-f905b7b3d7ff")
-		(property "Reference" "D79"
-			(at 128.27 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 128.27 102.108 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b90e1622-dd59-476d-9764-3fad694024e1")
-		)
-		(pin "1"
-			(uuid "97dcd49e-2fb3-43f3-a59f-c867a0924b9b")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D79")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 53.594 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84bcbef2-ab27-420d-a034-aa92c90b6cc7")
-		(property "Reference" "D92"
-			(at 179.07 67.818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aed15fa1-4b7e-41c9-9a8d-d70e92f31c6b")
-		)
-		(pin "1"
-			(uuid "d80efc52-bb35-49c8-8dc7-368e2f39bd76")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D92")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 127 91.694 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8912db18-5b67-47cb-8442-b81db092e71a")
-		(property "Reference" "D80"
-			(at 128.27 105.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 128.27 108.458 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2cb8801d-0c50-48b4-9c75-6fd605ab2203")
-		)
-		(pin "1"
-			(uuid "bf9f4731-e241-4b00-9a5c-b24e724c09a1")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D80")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -10709,115 +6751,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 72.644 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fabda55-7c1e-41fe-b461-50df2e48068f")
-		(property "Reference" "D86"
-			(at 153.67 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e81a6e6-49ec-4adb-b85f-332dd4c30c0c")
-		)
-		(pin "1"
-			(uuid "eb83a707-83f1-452c-9da3-6cf042741608")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D86")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -11006,115 +6939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 66.294 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "938ed054-373d-4515-8ae2-27ab99fc4ae6")
-		(property "Reference" "D94"
-			(at 179.07 80.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 83.058 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4b0cf6ca-ca2f-4f3f-b61d-7234c1827af9")
-		)
-		(pin "1"
-			(uuid "f62ed85d-566d-464e-b61c-74d4d429b821")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D94")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 135.89 45.72 180)
 		(unit 1)
@@ -11200,333 +7024,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 127 53.594 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "963249b5-badf-4097-9acf-87642a17527c")
-		(property "Reference" "D74"
-			(at 128.27 67.818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 128.27 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "343cdcf3-d50f-4b6f-8b70-052dfa70d13f")
-		)
-		(pin "1"
-			(uuid "f4d34b21-3b44-42ba-947b-b8026a3ca8fe")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D74")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 45.466 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98c2387f-4e67-4cfc-95db-17a3d9512162")
-		(property "Reference" "D82"
-			(at 153.67 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 45.466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 45.466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 45.466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 45.466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 45.466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a70121b-30f8-472d-b713-fa113ac156dd")
-		)
-		(pin "1"
-			(uuid "9119637a-c478-49f4-b1db-141864db754e")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D82")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 78.994 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99c70c54-5c89-4d2b-bfd0-88b71fc38a64")
-		(property "Reference" "D60"
-			(at 77.47 93.218 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 95.758 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a95cda6a-df06-4cc8-aa1e-274d7d8506a3")
-		)
-		(pin "1"
-			(uuid "f112c6fb-e9bc-4099-83ed-7c160498313b")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D60")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -11806,6 +7303,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4001")
+		(at 152.4 78.994 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a03c68db-4b12-4cac-be70-20a19587107c")
+		(property "Reference" "D6"
+			(at 152.4 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 152.4 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 152.4 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 152.4 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 152.4 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 152.4 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1de8751c-dadf-44a2-9591-325c75597098")
+		)
+		(pin "1"
+			(uuid "a3cda2eb-01d1-4e89-8719-cc18c7b1e3c6")
+		)
+		(instances
+			(project "Cfx-port"
+				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 186.69 66.294 180)
 		(unit 1)
@@ -11891,115 +7492,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 127 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5a5be39-ec49-4ea1-a720-bff1166f5d78")
-		(property "Reference" "D73"
-			(at 128.27 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 128.27 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a8c3c18a-2dd8-4eb1-84e4-4c8ac5c5fc66")
-		)
-		(pin "1"
-			(uuid "c3caf2b8-9880-439a-a2fe-7ac3aebb95f0")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D73")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -12182,224 +7674,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 78.994 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aecae951-2a78-43cf-aca0-c38740443a16")
-		(property "Reference" "D87"
-			(at 153.67 93.218 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 95.758 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 78.994 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e0a19b70-d2eb-4811-9f5c-a780b47fab7d")
-		)
-		(pin "1"
-			(uuid "5e335894-79c0-4f8a-a204-4c3902ef6e50")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D87")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 85.344 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b473aaef-6861-4f9e-a1e0-c757235c7ad5")
-		(property "Reference" "D61"
-			(at 77.47 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 102.108 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "63f6541b-67af-4cd0-bf00-eac9305771b5")
-		)
-		(pin "1"
-			(uuid "c13aa167-9791-476d-875d-e0d458a841b8")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D61")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -12770,333 +8044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 127 98.044 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb593da7-8e81-423a-9c7b-927d978d07f5")
-		(property "Reference" "D81"
-			(at 128.27 112.268 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 128.27 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 127 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 127 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2d32488b-acb1-4707-98b1-66905541870d")
-		)
-		(pin "1"
-			(uuid "ddbb02ca-7027-45d1-a3de-4967fcb5d8db")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D81")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 66.294 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beff4a07-882a-4967-8a22-92d3aa8fd75f")
-		(property "Reference" "D85"
-			(at 153.67 80.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 83.058 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "221e405b-d23f-42df-9494-2c6d17adada7")
-		)
-		(pin "1"
-			(uuid "48d96c1d-2356-45b9-87fe-81cbd287f572")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D85")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 85.344 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf1b3073-dd47-4b5a-9187-bba631066a78")
-		(property "Reference" "D97"
-			(at 179.07 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 102.108 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "13e3ab99-5917-42f6-b81a-4b7085140508")
-		)
-		(pin "1"
-			(uuid "6149a1ca-eaac-40b9-acba-fb0587cfe296")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D97")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 186.69 72.644 180)
 		(unit 1)
@@ -13189,7 +8136,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4001")
-		(at 127 59.944 0)
+		(at 127.254 53.594 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13198,9 +8145,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1dbf38e-cb9c-426c-bdb2-983bc7736f20")
-		(property "Reference" "D75"
-			(at 128.27 74.168 0)
+		(uuid "c860f5e7-3e07-4f74-91cf-1c29cb7baf9a")
+		(property "Reference" "D2"
+			(at 127.254 47.244 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13208,11 +8155,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1N4001"
-			(at 128.27 76.708 0)
+			(at 127.254 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13220,11 +8166,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127 59.944 0)
+			(at 127.254 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13235,7 +8180,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 127 59.944 0)
+			(at 127.254 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13246,7 +8191,7 @@
 			)
 		)
 		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 127 59.944 0)
+			(at 127.254 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13257,7 +8202,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 127 59.944 0)
+			(at 127.254 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13268,7 +8213,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 127 59.944 0)
+			(at 127.254 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13279,564 +8224,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "45d7a062-62aa-46c8-ac24-200a3399cd71")
+			(uuid "f796941b-04b0-4047-a4ef-ddb6abb0d841")
 		)
 		(pin "1"
-			(uuid "4d249f05-5d20-4323-9cde-b82d480f9d62")
+			(uuid "088c0278-fb1a-4284-8dfd-438bc40c587d")
 		)
 		(instances
 			(project "Cfx-port"
 				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D75")
+					(reference "D2")
 					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 98.044 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1eb74d3-eacb-44a1-a6e8-b1a75eb8da30")
-		(property "Reference" "D63"
-			(at 77.47 112.268 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a4dd3c26-06bd-4417-9c7d-e335a03d2669")
-		)
-		(pin "1"
-			(uuid "e7aa0045-dbd1-49b1-b421-1abb4aa1fafb")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D63")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 53.594 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5a070a1-5940-420a-8de5-306ed7c01b16")
-		(property "Reference" "D56"
-			(at 77.47 67.818 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 53.594 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f9dd4325-542e-466f-bef6-4f3e72d86a41")
-		)
-		(pin "1"
-			(uuid "1b814a47-e4c4-459f-b1d4-8cdab984b323")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D56")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 203.2 72.644 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c66016b0-eeec-4bd5-a54f-ba4c7a5ec4f7")
-		(property "Reference" "D104"
-			(at 204.47 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 204.47 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 203.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 203.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 203.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 203.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c662bc36-d467-4217-9fb6-06f81d182e46")
-		)
-		(pin "1"
-			(uuid "5ae63de8-2ea2-4822-84e7-511bb5276d41")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D104")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 101.6 66.294 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c89f2cf7-7471-4a3f-890f-409c89c2c681")
-		(property "Reference" "D67"
-			(at 102.87 80.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 83.058 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "255dbdda-ddf7-4f7c-9da0-5070478aecd4")
-		)
-		(pin "1"
-			(uuid "d441c9e0-b53c-4171-9676-aeef1603c3bc")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D67")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 101.6 59.944 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb5b6383-69ac-4395-9b42-37ac98a6ae6f")
-		(property "Reference" "D66"
-			(at 102.87 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "da51cbeb-8a7d-4160-9bb4-2a201bce287c")
-		)
-		(pin "1"
-			(uuid "d85abd42-2a66-48b4-9187-ddaa54f5e801")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D66")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
 				)
 			)
 		)
@@ -13927,224 +8324,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 177.8 91.694 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d01f4635-0087-443a-9caf-1e6cc1d9c050")
-		(property "Reference" "D98"
-			(at 179.07 105.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 179.07 108.458 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 177.8 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 177.8 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 177.8 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c834168e-6ca2-4ace-8d98-551236a6dc20")
-		)
-		(pin "1"
-			(uuid "ba350522-86a5-454f-998b-ed601aa9fe4d")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D98")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 101.6 91.694 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d06120ec-550c-4257-b57f-80a0e0aed642")
-		(property "Reference" "D71"
-			(at 102.87 105.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 108.458 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a97e07d4-11f4-4e3a-8373-2d2363ece642")
-		)
-		(pin "1"
-			(uuid "b2f6dd4b-7c49-46ca-8b5d-7bc5fc33ea36")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D71")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)
@@ -14419,6 +8598,110 @@
 							(value "ButtonPads:conductive pad")
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 178.054 78.994 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e774c19b-deb0-4030-b4c7-73044c0e5b44")
+		(property "Reference" "D5"
+			(at 178.054 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 178.054 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 178.054 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 178.054 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 178.054 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 178.054 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 178.054 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e9c5e40-bc99-47fb-9117-e860fe9f4e64")
+		)
+		(pin "1"
+			(uuid "311448e5-35ed-44be-bdf1-7acc55361068")
+		)
+		(instances
+			(project "Cfx-port"
+				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
+					(reference "D5")
+					(unit 1)
 				)
 			)
 		)
@@ -14788,551 +9071,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 152.4 85.344 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eee51097-b7a5-474a-9203-8e1120a32768")
-		(property "Reference" "D88"
-			(at 153.67 99.568 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 153.67 102.108 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 152.4 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 152.4 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 152.4 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 85.344 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bc69d59d-00a5-4874-9284-bb7906490780")
-		)
-		(pin "1"
-			(uuid "70bb68b9-79ed-4558-b550-690dc66819ae")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D88")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 101.6 98.044 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eef2b752-207e-468e-afb1-246f0b38d496")
-		(property "Reference" "D72"
-			(at 102.87 112.268 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 98.044 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8957df00-f651-4751-a266-ee405af9e093")
-		)
-		(pin "1"
-			(uuid "80f9a930-5318-4ac7-a680-09c54ce71a4c")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D72")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 72.644 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f00146bf-8c80-4de3-be90-d0df73c72d9e")
-		(property "Reference" "D59"
-			(at 77.47 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8caef571-ab73-4655-a900-5d01e567d738")
-		)
-		(pin "1"
-			(uuid "e08c7ba0-27d2-4f5c-9abb-3ac6a359b9b7")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D59")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 101.6 72.644 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6c71852-96f9-4c40-b572-da8fe442b827")
-		(property "Reference" "D68"
-			(at 102.87 86.868 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 102.87 89.408 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 101.6 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 101.6 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 101.6 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "131cf2ab-2361-472f-8042-4ac95e3102c0")
-		)
-		(pin "1"
-			(uuid "37e80ac6-36dd-4606-b7a3-5cbfcb21969d")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D68")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f97cf1b3-3f20-4552-b140-119936dae936")
-		(property "Reference" "D55"
-			(at 77.47 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1401051b-6000-4b7c-9935-ef7aa109b6f7")
-		)
-		(pin "1"
-			(uuid "34e48271-5146-4673-8123-80dca1a305fa")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D55")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 85.09 45.72 180)
 		(unit 1)
@@ -15418,115 +9156,6 @@
 							(name "Footprint")
 							(value "ButtonPads:conductive pad")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 76.2 66.294 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe086a6e-655d-4b53-8bed-d4a272e33cc7")
-		(property "Reference" "D58"
-			(at 77.47 80.518 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 77.47 83.058 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 76.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 76.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 76.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 76.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 66.294 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c0dcd53-9b0a-4a18-8c53-cfc4bb7d8455")
-		)
-		(pin "1"
-			(uuid "e70b3dc0-ef13-42ec-9993-a07bb02add23")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/57a70ae9-63b9-4fdb-8cb1-3c5ae5c25b56"
-					(reference "D58")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
 					)
 				)
 			)

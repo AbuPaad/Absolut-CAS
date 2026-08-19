@@ -1294,184 +1294,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1813,9 +1635,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AP2112K-3.3"
+		(symbol "New_Library:TPS73733DCQR"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1823,40 +1645,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -5.08 5.715 0)
+				(at -12.7 11.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "AP2112K-3.3"
-				(at 0 5.715 0)
+			(property "Value" "TPS73733DCQR"
+				(at -12.7 -14.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-				(at 0 2.54 0)
+			(property "Footprint" "TPS73733DCQR:IC_TPS73733DCQR"
+				(at -0.254 -36.83 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1864,9 +1675,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1877,7 +1689,19 @@
 					)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "Description" "1-A, ultra-low-dropout voltage regulator with reverse current protection & enable"
+				(at -0.508 -23.114 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1886,9 +1710,34 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23?5*"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
+				(at -0.254 -34.036 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SOT-223-6 Texas Instruments"
+				(at 0 -39.37 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1897,12 +1746,97 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "AP2112K-3.3_0_1"
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS73733DCQR/Texas+Instruments/view-part/?ref=eda"
+				(at 0.508 -19.304 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at -0.254 -43.688 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS73733DCQR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 -27.178 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TPS73733DCQR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at -0.254 -30.734 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TPS73733DCQR_0_0"
 				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
+					(start -12.7 -12.7)
+					(end 12.7 10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1911,305 +1845,110 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "AP2112K-3.3_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "VIN"
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "OUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
+				(pin power_in line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND_3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "NR/FB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Switching:TLV61070ADBV"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TLV61070ADBV"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv61070a.pdf"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Boost Converter, 2.5A switch current limit, 2.2-5.5V Output Voltage, 0.5-5.5V Input Voltage, SOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Boost adjustable converter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TLV61070ADBV_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV61070ADBV_1_1"
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
+					(at -17.78 2.54 0)
+					(length 5.08)
 					(name "EN"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "V_{FB}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "V_{OUT}"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "V_{IN}"
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND_6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2287,22 +2026,10 @@
 		(uuid "056e93cd-f4ed-4819-afca-b38b871d847e")
 	)
 	(junction
-		(at 231.648 68.834)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d55d6a2-70f3-475b-b999-fa60e9d0b5ec")
-	)
-	(junction
 		(at 77.216 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e1f1f3a-ec2e-4455-bb76-c3085d2945f3")
-	)
-	(junction
-		(at 229.362 73.914)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2b9a26e-2811-42c1-b8ff-750e8e1d4350")
 	)
 	(no_connect
 		(at 77.216 92.71)
@@ -2334,26 +2061,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.042 66.294) (xy 209.042 55.118)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07444904-6225-4553-bbb2-7ee862e95123")
-	)
-	(wire
-		(pts
-			(xy 231.648 66.548) (xy 231.648 68.834)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d8e957d-83a5-4be3-9606-99cc50e34f7b")
-	)
-	(wire
-		(pts
 			(xy 77.216 82.55) (xy 77.216 80.01)
 		)
 		(stroke
@@ -2361,16 +2068,6 @@
 			(type default)
 		)
 		(uuid "1bba33f4-366a-4c17-91ce-ed0eb6f82571")
-	)
-	(wire
-		(pts
-			(xy 209.042 55.118) (xy 215.646 55.118)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c9bd2e6-ef78-473a-9e3e-a3226f71a4ff")
 	)
 	(wire
 		(pts
@@ -2404,6 +2101,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 67.31) (xy 86.106 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cf6d06-e35e-4ed9-b48e-4a831020b088")
+	)
+	(wire
+		(pts
 			(xy 178.562 72.644) (xy 168.402 72.644)
 		)
 		(stroke
@@ -2424,53 +2131,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.362 55.118) (xy 229.362 66.294)
+			(xy 91.44 69.85) (xy 86.106 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b1b1eb4-4efe-4290-be9a-676e1d5fc900")
-	)
-	(wire
-		(pts
-			(xy 232.664 76.454) (xy 234.95 76.454)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b5ddc9e-83cf-4dc0-b845-251be16bfa6b")
-	)
-	(wire
-		(pts
-			(xy 244.094 66.548) (xy 244.094 70.358)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78164a9a-896b-41ec-87e8-ddf62bf207f2")
-	)
-	(wire
-		(pts
-			(xy 229.362 68.834) (xy 231.648 68.834)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d47bc60-9bdc-4f51-ab54-db681482deb7")
-	)
-	(wire
-		(pts
-			(xy 232.664 73.914) (xy 229.362 73.914)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc74cf9-a08f-4add-baf4-2a6359a76a2c")
+		(uuid "8d00276c-8242-48e2-8dfb-38c1863262e2")
 	)
 	(wire
 		(pts
@@ -2494,16 +2161,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 68.834) (xy 231.648 68.834)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab81e185-54f8-4934-ae9e-f073a3431074")
-	)
-	(wire
-		(pts
 			(xy 77.216 74.93) (xy 77.216 77.47)
 		)
 		(stroke
@@ -2524,16 +2181,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.664 76.454) (xy 232.664 73.914)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd91e811-54cd-4fc7-912e-54fb7f6b302b")
-	)
-	(wire
-		(pts
 			(xy 84.328 77.47) (xy 77.216 77.47)
 		)
 		(stroke
@@ -2544,23 +2191,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.266 55.118) (xy 229.362 55.118)
+			(xy 190.246 66.04) (xy 190.246 44.704)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9492b06-fab4-43f9-97ca-6d2dc895f003")
-	)
-	(wire
-		(pts
-			(xy 244.094 66.548) (xy 231.648 66.548)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4eac3a-4679-4912-860e-ed4902732c4e")
+		(uuid "e3199518-f0ed-4e1c-b6e6-1240b5c47e0a")
 	)
 	(wire
 		(pts
@@ -2574,16 +2211,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.362 81.026) (xy 229.362 73.914)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "effa0f5e-4528-4d31-9490-4648615a978a")
-	)
-	(wire
-		(pts
 			(xy 170.942 75.184) (xy 168.402 75.184)
 		)
 		(stroke
@@ -2591,6 +2218,26 @@
 			(type default)
 		)
 		(uuid "f08d4839-1806-4826-81d5-47203ce7a961")
+	)
+	(wire
+		(pts
+			(xy 204.47 71.12) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f997f87c-f7f3-475a-837e-d344e0193e71")
+	)
+	(wire
+		(pts
+			(xy 190.246 66.04) (xy 204.47 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc26acc1-af50-473a-95ec-6f33461d5e54")
 	)
 	(label "usb_P"
 		(at 77.216 82.55 0)
@@ -2623,26 +2270,6 @@
 		(uuid "110c183f-1f4b-4465-b604-3d0a1d4d9d4d")
 	)
 	(label "BAT+"
-		(at 209.042 66.294 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b00b6a2-e45e-460f-ada2-cc4a93fb153b")
-	)
-	(label "BAT+"
-		(at 209.042 71.374 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2958c5c4-d4ec-438a-8e15-faf1dbbe8f0d")
-	)
-	(label "BAT+"
 		(at 158.242 59.944 180)
 		(effects
 			(font
@@ -2672,6 +2299,16 @@
 		)
 		(uuid "76785fb7-d327-45eb-9d22-e62033138983")
 	)
+	(label "BAT+"
+		(at 204.47 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94f26991-5a50-4235-88f6-10add848e894")
+	)
 	(label "usb_N"
 		(at 77.216 77.47 0)
 		(effects
@@ -2692,7 +2329,29 @@
 		)
 		(uuid "d94b9935-0237-4ff5-bf1e-48f729c35ae3")
 	)
-	(global_label "D+"
+	(global_label "3V3"
+		(shape output)
+		(at 204.47 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "268eb79c-d023-40e2-bc1c-8c74043ee3de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.47 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "usb_P"
 		(shape output)
 		(at 98.044 82.55 0)
 		(effects
@@ -2740,7 +2399,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 86.106 67.31 0)
+		(at 91.44 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2750,7 +2409,7 @@
 		)
 		(uuid "3f4c9adc-6fa1-450d-ba5e-eb230c21278d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.9617 67.31 0)
+			(at 98.2957 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +2423,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 86.106 69.85 0)
+		(at 91.44 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2774,7 +2433,7 @@
 		)
 		(uuid "42210289-a6e0-4ab2-823e-7afbd69a424d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.9617 69.85 0)
+			(at 98.2957 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2783,30 +2442,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 244.094 77.978 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f9b0c59-7d97-45ea-a376-29a69b230ff9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.094 84.8337 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -2858,7 +2493,7 @@
 			)
 		)
 	)
-	(global_label "D-"
+	(global_label "usb_N"
 		(shape output)
 		(at 98.044 77.47 0)
 		(effects
@@ -2926,6 +2561,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape output)
+		(at 240.03 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f873405-3e87-432c-9ecb-da1973e429ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 77.216 62.23 0)
@@ -2950,19 +2607,18 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 229.362 88.646 270)
-		(fields_autoplaced yes)
+	(global_label "3V3"
+		(shape output)
+		(at 204.47 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9ec2ea37-1659-40b9-b9ee-b708af754eb8")
+		(uuid "9474ccd3-fd88-4c94-9342-5daaa443aa34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.362 95.5017 90)
+			(at 204.47 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,7 +2626,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 240.03 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbeac1c0-e9d4-4500-a837-7818cb41ac53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 	)
@@ -3048,17 +2725,16 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 219.202 78.994 270)
-		(fields_autoplaced yes)
+		(at 240.03 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "d6d97025-b77a-44f1-8a5b-7947bf8ffbca")
+		(uuid "ce6c7af2-3372-419a-87dc-39d0271e66d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.202 85.8497 90)
+			(at 240.03 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3066,7 +2742,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 	)
@@ -3163,137 +2838,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "3V3"
-		(shape input)
-		(at 244.094 66.802 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f553f1e9-06fa-495e-a115-c00bd6fac604")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5868 66.802 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 244.094 74.168 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ee82e28-c685-4320-a191-d784aeca7f2e")
-		(property "Reference" "C6"
-			(at 241.3 73.152 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22µF"
-			(at 241.3 75.438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 245.0592 70.358 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 244.094 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 244.094 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 244.094 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5672"
-			(at 244.094 74.168 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51532d34-f38c-4779-887d-a12acfc7b975")
-		)
-		(pin "2"
-			(uuid "710d0a78-25f3-46c1-8c55-19970d2c4204")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
-					(reference "C6")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
 			)
 		)
 	)
@@ -3411,201 +2955,6 @@
 					(variant
 						(name "goody2shoes-nocamera")
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 234.95 72.644 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ff2feeb-432b-4a58-b4d3-8180224896a3")
-		(property "Reference" "R14"
-			(at 237.236 71.374 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560k"
-			(at 236.982 73.914 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 233.172 72.644 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 234.95 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23203"
-			(at 234.95 72.644 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d81ffd1a-bfd0-44ea-bed3-c32e046d274e")
-		)
-		(pin "1"
-			(uuid "7672980d-4da9-4a2b-abca-777427dfbd4d")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
-					(reference "R14")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP2112K-3.3")
-		(at 176.53 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d47a191-c435-4b6a-9d3a-66438ef60732")
-		(property "Reference" "U1"
-			(at 176.53 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP2112K-3.3"
-			(at 176.53 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 176.53 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-			(at 176.53 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-			(at 176.53 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "b2f982f2-45c3-4f0b-aa11-46b74860e49f")
-		)
-		(pin "3"
-			(uuid "850fcc3c-5f05-4a04-b197-9b12da471293")
-		)
-		(pin "2"
-			(uuid "b789497c-54ba-419b-8fdf-b0acbecf45dc")
-		)
-		(pin "1"
-			(uuid "c385f19d-e575-458b-9469-ae2cf02a4f57")
-		)
-		(pin "5"
-			(uuid "60089409-75fa-4964-b86b-0c19c2f15f8e")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
-					(reference "U1")
-					(unit 1)
 				)
 			)
 		)
@@ -3863,7 +3212,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7R"
+		(property "Value" "4.7K"
 			(at 88.138 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4159,218 +3508,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 219.456 55.118 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cf37b4f-9957-43a3-8550-228e94b48539")
-		(property "Reference" "L2"
-			(at 219.456 49.784 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 219.456 52.324 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 219.456 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.456 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 219.456 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1035"
-			(at 219.456 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 219.456 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "263aabfa-834c-4a64-8ab0-4a96c0af1775")
-		)
-		(pin "2"
-			(uuid "d3b8e184-a465-4f67-853b-1be6a8892543")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
-					(reference "L2")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 229.362 84.836 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7aff32a6-8978-4c61-8739-5db0cd8f1891")
-		(property "Reference" "R13"
-			(at 231.902 83.5659 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 231.902 86.1059 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 227.584 84.836 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.362 84.836 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 229.362 84.836 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 229.362 84.836 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17900"
-			(at 229.362 84.836 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c75df66-e271-4248-a94e-4bea66d1c373")
-		)
-		(pin "2"
-			(uuid "dfcc9587-4a9b-4546-a2d0-55b051f10e28")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
-					(reference "R13")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 82.296 67.31 90)
 		(unit 1)
@@ -4581,125 +3718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TLV61070ADBV")
-		(at 219.202 71.374 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba5e6767-9b2f-4c6a-bafc-6f606e2eae81")
-		(property "Reference" "U6"
-			(at 219.202 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV61070ADBV"
-			(at 219.202 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 220.472 77.724 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv61070a.pdf"
-			(at 219.202 58.674 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Boost Converter, 2.5A switch current limit, 2.2-5.5V Output Voltage, 0.5-5.5V Input Voltage, SOT-23-6"
-			(at 219.202 71.374 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 219.202 71.374 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6881375"
-			(at 219.202 71.374 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e3e51303-2d6f-4967-b73f-14cdba68fbcd")
-		)
-		(pin "4"
-			(uuid "d02bc355-6703-4a9c-a493-cecf25c2bbfc")
-		)
-		(pin "5"
-			(uuid "ae339b32-f598-4759-a3ae-0d56884fadcd")
-		)
-		(pin "2"
-			(uuid "c68169f1-c104-4cb0-926b-4dbbcd21ca26")
-		)
-		(pin "1"
-			(uuid "0ea268aa-2e30-49e2-b223-cbdec321251c")
-		)
-		(pin "6"
-			(uuid "fe9b3f58-171e-4113-91ba-4176a29721f4")
-		)
-		(instances
-			(project "Cfx-port"
-				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
-					(reference "U6")
-					(unit 1)
-					(variant
-						(name "goody2shoes-nocamera")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 144.272 75.184 90)
 		(unit 1)
@@ -4722,7 +3740,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 144.272 71.882 90)
 			(hide yes)
 			(show_name no)
@@ -5041,7 +4059,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 144.272 69.342 90)
 			(hide yes)
 			(show_name no)
@@ -5121,6 +4139,232 @@
 					(variant
 						(name "goody2shoes-nocamera")
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:TPS73733DCQR")
+		(at 222.25 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd7df190-2b30-4bfe-b8e2-3f099eb528e1")
+		(property "Reference" "U2"
+			(at 222.25 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS73733DCQR"
+			(at 222.25 61.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS73733DCQR:IC_TPS73733DCQR"
+			(at 221.996 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1-A, ultra-low-dropout voltage regulator with reverse current protection & enable"
+			(at 221.742 96.774 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
+			(at 221.996 107.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOT-223-6 Texas Instruments"
+			(at 222.25 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS73733DCQR/Texas+Instruments/view-part/?ref=eda"
+			(at 222.758 92.964 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 221.996 117.348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS73733DCQR/Texas+Instruments/view-part/?ref=snap"
+			(at 222.25 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TPS73733DCQR"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 221.996 104.394 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "5"
+			(uuid "348949c5-0901-44e1-aea0-f7f6e3d3bfe1")
+		)
+		(pin "4"
+			(uuid "1542b3f6-9624-4177-890d-cfc2ae776f19")
+		)
+		(pin "3"
+			(uuid "6ff17d26-8d52-484b-a069-20ab6ffd6fbc")
+		)
+		(pin "2"
+			(uuid "c7e9d63a-b8c3-4ea7-92c3-1c36cfacb915")
+		)
+		(pin "1"
+			(uuid "0becd5de-2cf3-40c9-8ab3-3de1d65b8cb5")
+		)
+		(pin "6"
+			(uuid "a0a53811-2fce-4a64-ba1e-680e475287e1")
+		)
+		(instances
+			(project "Cfx-port"
+				(path "/2a954a11-6412-4ea5-a14b-9a2b1d8affbf/37feafbc-0c2c-41fc-9817-e2aecf519d1e"
+					(reference "U2")
+					(unit 1)
 				)
 			)
 		)
@@ -5250,7 +4494,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7R"
+		(property "Value" "4.7K"
 			(at 88.138 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
