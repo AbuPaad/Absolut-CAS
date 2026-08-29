@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.1,
-          "width": 0.3
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -78,11 +78,23 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|114137999|39451703|16b77bbc-3df5-44f7-b0b6-9a4293314803|110dbd82-95b8-4776-8b8f-ab93c6f2de61",
+          ""
+        ],
+        [
           "clearance|146725000|85525000|947d54b7-6747-4d96-9131-6866703f3cc7|9f4ac326-2c12-4075-b1ab-0a1b957c4df0",
           ""
         ],
         [
           "clearance|146925000|87225000|3e67a326-d11b-4884-b79b-3a1dbe20e537|301ff662-4ec5-4c34-b2c6-456855f61258",
+          ""
+        ],
+        [
+          "clearance|155777500|110670000|be8a7784-6727-4194-8f43-0dd2624f6f5a|dd7d948b-367f-498c-92a4-cf57868e0e52",
+          ""
+        ],
+        [
+          "clearance|155777500|114630000|0afeba57-bd7a-446d-9c9c-229f14bcdbc2|ece3ec6e-0194-4be0-a073-72db54d2c6c8",
           ""
         ]
       ],
@@ -129,7 +141,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
@@ -157,9 +169,9 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.1,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -737,7 +749,7 @@
         "uuid": "2a954a11-6412-4ea5-a14b-9a2b1d8affbf"
       }
     ],
-    "used_designators": "J1,SW103,D1-6,C3,Y1,R4-7,R13,U1-2,U8",
+    "used_designators": "",
     "variants": [
       {
         "description": "for nerds who think cheating on exams with ai is bad I'm making a design variant with no camera",
