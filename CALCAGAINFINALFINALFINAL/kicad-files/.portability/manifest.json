@@ -1,0 +1,47 @@
+{
+  "backed_up": [
+    {
+      "path": "Cfx-port.kicad_pcb",
+      "backup": "backup/Cfx-port.kicad_pcb"
+    }
+  ],
+  "created_files": [
+    "packages3D/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x09_P2.54mm_Vertical.step",
+    "packages3D/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+    "packages3D/Resistor_SMD.3dshapes/R_0603_1608Metric.step",
+    "packages3D/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+    "packages3D/RF_Module.3dshapes/ESP32-S3-WROOM-2.step",
+    "packages3D/LED_SMD.3dshapes/LED_01005_0402Metric.step",
+    "packages3D/Downloads/TP4056-42-ESOP8--3DModel-STEP-56544.STEP",
+    "packages3D/Downloads/20647-040E-01--3DModel-STEP-46669.STEP",
+    "packages3D/Downloads/2.2 TFT ILI9341 - Flush.stp",
+    "packages3D/Downloads/TPS73733DCQR--3DModel-STEP-56544.STEP",
+    "packages3D/Button_Switch_SMD.3dshapes/SW_Push_SPST_NO_Alps_SKRK.step",
+    "packages3D/Connector_JST.3dshapes/JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal.step",
+    "packages3D/lithium-polymer-battery-103450-2000mah-1.snapshot.2/LiPo_103450_2000mAh.STEP",
+    "packages3D/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step",
+    "packages3D/Diode_SMD.3dshapes/Nexperia_CFP3_SOD-123W.step",
+    "packages3D/Package_SO.3dshapes/SSOP-24_5.3x8.2mm_P0.65mm.step"
+  ],
+  "created_dirs": [
+    "packages3D/Connector_PinHeader_2.54mm.3dshapes",
+    "packages3D/Capacitor_SMD.3dshapes",
+    "packages3D/Resistor_SMD.3dshapes",
+    "packages3D/Package_TO_SOT_SMD.3dshapes",
+    "packages3D/RF_Module.3dshapes",
+    "packages3D/LED_SMD.3dshapes",
+    "packages3D/Downloads",
+    "packages3D/Button_Switch_SMD.3dshapes",
+    "packages3D/Connector_JST.3dshapes",
+    "packages3D/lithium-polymer-battery-103450-2000mah-1.snapshot.2",
+    "packages3D/Diode_SMD.3dshapes",
+    "packages3D/Package_SO.3dshapes"
+  ],
+  "summary": {
+    "models": {
+      "files_copied": 16,
+      "remapped": 56,
+      "unique_sources": 16
+    }
+  }
+}
