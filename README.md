@@ -25,17 +25,14 @@ the calculator's own shell and buttons.
 
 ## The board itself
 
-- **4 layers**: `F.Cu`, `In1.Cu` (power), `In2.Cu` (signal), `B.Cu`. The inner layers are
-  actually routed — this is not a 2-layer board with the inner layers declared and unused.
+- **4 layers**: `F.Cu`, `In1.Cu` (GND Plane), `In2.Cu` (signal), `B.Cu`
 - 1.6 mm.
-- **Outline: 65 × 136 mm** as drawn in the board file.
+- **Outline: 65 × 94 mm** as drawn in the board file.
 - **Every component sits on `B.Cu`** — the whole board mounts bottom-side-up behind the keypad.
-- Last DRC run: **0 violations**. Detail in the reports section below.
-
 ## What it can actually do
 
 - Runs NumOS: CAS maths, natural display, graphing, apps, and a Game Boy emulator.
-- A real 320×240 colour screen instead of a 7-segment LCD.
+- 320×240 colour screen instead of a 7-segment LCD.
 - Wi-Fi on board. The AI and notes features need it.
 - Rechargeable Li-ion over USB-C. Untethered.
 - Keypad-only input. No touch.
