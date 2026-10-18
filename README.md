@@ -1,3 +1,7 @@
+<!-- boardrepo-badge:v1 -->
+[![View on BoardRepo](https://boardrepo.com/badge/github.svg?v=2)](https://boardrepo.com/b/791406a0-c61d-40a1-bfb7-e0b660ef9756?ref=github-readme)
+<!-- /boardrepo-badge:v1 -->
+
 # Absolut-CAS — the drop-in board
 
 KiCad project for the NumOS Casio Port. It replaces the original board inside a stock Casio
