@@ -6,6 +6,13 @@ the calculator's own shell and buttons.
 
 Firmware lives in `../../../firmware/AbsolutOS`. This folder is the hardware.
 
+> [!WARNING]
+> **Schematics only — the PCB files in this repo are stale.**
+> Every schematic (`*.kicad_sch`) here is current and complete. Every board file (`*.kicad_pcb`)
+> is out of date: it does not match the last fabricated board and will not work as drawn. The PCB
+> is being reworked and will be pushed here soon — do not fabricate from anything in this folder
+> until then.
+
 ---
 
 ## Components

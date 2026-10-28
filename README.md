@@ -8,6 +8,13 @@ KiCad project for the NumOS Casio Port. It replaces the original board inside a 
 fx-82 / fx-991 with an ESP32-S3, a colour screen interface and a oem compatible keypad matrix — reusing
 the calculator's own shell and buttons.
 
+> [!WARNING]
+> **Schematics only — the PCB files in this repo are stale.**
+> Every schematic (`*.kicad_sch`) here is current and complete. Every board file (`*.kicad_pcb`)
+> is out of date: it does not match the last fabricated board and will not work as drawn. The PCB
+> is being reworked and will be pushed here soon — do not fabricate from anything in `hardware/`
+> until then.
+
 ---
 
 ## Components
