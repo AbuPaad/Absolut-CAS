@@ -66,7 +66,7 @@ Firmware lives in `../../../firmware/AbsolutOS`. This folder is the hardware.
 | `keypad.kicad_sch` | Keypad matrix and the TCA9555 expander. |
 | `power-ic.kicad_sch` | Charger, LDO, protection, USB-C. |
 | `esp32-s3-pinout.kicad_sch` | Module pinout and connectors. |
-| `production/` | Fabrication outputs. See below. |
+| `production/` | Fabrication output. Generated locally, not versioned — see below. |
 | `jlcpcb/` | Order output folder. `gerber/` and `production_files/` are **empty**. |
 | `plots/` | `Cfx-port__Assembly.pdf`. |
 | `packages3D/` | 3D models. `Downloads/` holds the vendor STEP files. |
@@ -86,13 +86,10 @@ glob that got committed). Safe to ignore.
 
 ### Fabrication outputs
 
-- `production/bom.csv` — parts list with LCSC part numbers.
-- `production/designators.csv` — every designator, for assembly.
-- `production/*.svg` — the gerbers, exported as SVG: copper, mask, paste, silkscreen, edge cuts.
-- `production/netlist.ipc` — netlist.
-- `production/Cfx-port.zip` — the packaged set.
-
-Generated **2026-09-02**. This is what went to the fab.
+`production/` is a local scratch directory for fabrication output — gerbers, BOM, pick-and-place,
+packaged zips. It is **not versioned** (`.gitignore`), and the v1 packaged set (`Cfx-port.zip`)
+has been deleted. What is on disk here was generated for the v1 board and does not match the
+current board design; regenerate before ordering.
 
 Readable versions live one level up: `../Docs/Matrix.pdf` for the keypad matrix drawing,
 `../../../Docs/schematic.pdf` for the flattened schematic, and `../../../Reference/` for the

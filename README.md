@@ -62,7 +62,7 @@ the calculator's own shell and buttons.
 | `keypad.kicad_sch` | Keypad matrix and the TCA9555 expander. |
 | `power-ic.kicad_sch` | Charger, LDO, protection, USB-C. |
 | `esp32-s3-pinout.kicad_sch` | Module pinout and connectors. |
-| `production/` | Fabrication outputs. See below. |
+| `production/` | Fabrication output. Generated locally, not versioned. |
 | `jlcpcb/` | Order output folder. `gerber/` and `production_files/` are **empty**. |
 | `plots/` | `Cfx-port__Assembly.pdf`. |
 | `packages3D/` | 3D models. `Downloads/` holds the vendor STEP files. |

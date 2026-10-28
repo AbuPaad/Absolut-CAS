@@ -50,3 +50,6 @@ fp-info-cache
 # PCB layout files are stale and no longer tracked here — see the README warning.
 # Local board files stay on disk, just unversioned until the rework lands.
 hardware/CALCAGAINFINALFINALFINAL/kicad-files/*.kicad_pcb
+
+# Fabrication output is generated locally and not versioned.
+hardware/CALCAGAINFINALFINALFINAL/kicad-files/production/
