@@ -1,13 +1,12 @@
 <!-- boardrepo-badge:v1 -->
 [![View on BoardRepo](https://boardrepo.com/badge/github.svg?v=2)](https://boardrepo.com/b/791406a0-c61d-40a1-bfb7-e0b660ef9756?ref=github-readme)
 <!-- /boardrepo-badge:v1 -->
-
+[PRODUCT WEBSITE](https://absolutcas.com)
 # Absolut-CAS — the drop-in board
 
 KiCad project for the NumOS Casio Port. It replaces the original board inside a stock Casio
 fx-82 / fx-991 with an ESP32-S3, a colour screen interface and a oem compatible keypad matrix — reusing
 the calculator's own shell and buttons.
-
 > [!WARNING]
 > **Schematics only — the PCB files in this repo are stale.**
 > Every schematic (`*.kicad_sch`) here is current and complete. Every board file (`*.kicad_pcb`)
